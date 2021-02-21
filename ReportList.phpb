@@ -1,0 +1,189 @@
+<?php
+/*******************************************************************************
+ *
+ *  filename    : ReportList.php
+ *  last change : 2003-03-20
+ *  website     : http://www.infocentral.org
+ *  copyright   : Copyright 2003 Chris Gebhardt
+ *  2008 Erwin Pratama for GKJ Bekasi WIl Timur
+ *  InfoCentral is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ ******************************************************************************/
+
+require 'Include/Config.php';
+require 'Include/Functions.php';
+
+//Set the page title
+$sPageTitle = gettext('Menu Laporan');
+
+$today = getdate();
+$year = $today['year'];
+
+require 'Include/Header.php';
+
+// Get the list of BTRG
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%BTRG%%' ";
+$perintah = mysql_query($sSQL);
+$BTRG = mysql_result($perintah,0);
+
+// Get the list of CBTG
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%CBTG%' ";
+$perintah = mysql_query($sSQL);
+$CBTG = mysql_result($perintah,0);
+
+// Get the list of CKRG
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%CKRG%' ";
+$perintah = mysql_query($sSQL);
+$CKRG = mysql_result($perintah,0);
+
+// Get the list of JTMY
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%JTMY%' ";
+$perintah = mysql_query($sSQL);
+$JTMY = mysql_result($perintah,0);
+
+// Get the list of KRWG
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%KRWG%' ";
+$perintah = mysql_query($sSQL);
+$KRWG = mysql_result($perintah,0);
+
+// Get the list of MGHY
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%MGHY%' ";
+$perintah = mysql_query($sSQL);
+$MGHY = mysql_result($perintah,0);
+
+// Get the list of PRST
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%PRST%' ";
+$perintah = mysql_query($sSQL);
+$PRST = mysql_result($perintah,0);
+
+// Get the list of TMBN
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%TMBN%' ";
+$perintah = mysql_query($sSQL);
+$TMBN = mysql_result($perintah,0);
+
+// Get the list of WMJY
+$sSQL = "SELECT count(*) FROM person_per WHERE per_cls_id < 6 AND  per_WorkPhone like '%WMJY%' ";
+$perintah = mysql_query($sSQL);
+$WMJY = mysql_result($perintah,0);
+
+
+?>
+
+<p>
+<a class="MediumText" href="LapBulanan.php?PersonID=5" target="_blank"><?php
+    echo gettext('Laporan Kewargaan Bulanan'); ?></a>
+<br>
+
+<?php
+    echo gettext('Laporan Jumlah Detail Aktifitas Kewargaan.'); ?>
+</p>
+
+
+<p>
+<a class="MediumText" href="GroupReports.php"><?php
+    echo gettext('Laporan Per-Kelompok'); ?></a>
+<br>
+<?php
+    echo gettext('Laporan Detail Anggota Kelompok (Format PDF).'); ?>
+</p>
+
+
+<?php if ($bCreateDirectory) { ?>
+	<p>
+	<a class="MediumText" href="DirectoryReports.php"><?php echo gettext('Laporan Daftar Jemaat'); ?></a>
+	<br>
+	<?php echo gettext('Daftar Jemaat di Kelompokkan berdasarkan ABJAD nama Keluarga'); ?>
+	</p>
+<?php } ?>
+
+
+<p>
+<a class="MediumText" href="PrintViewProgresDB.php" target="_blank"><?php echo gettext('Laporan Progress Updating Database'); ?></a>
+<br>
+<?php echo gettext('Laporan Progress Pengerjaan Update Database dari Data Awal.'); ?>
+</p>
+
+
+<p>
+<a class="MediumText" href="PrintViewDocStatus.php" target="_blank"><?php
+    echo gettext('Laporan Detail Status Kelengkapan Dokumen Warga'); ?></a>
+<br>
+Laporan Per Kelompok :
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=BTRG" target="_blank"><?php
+    echo gettext(' BTRG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=CBTG" target="_blank"><?php
+    echo gettext(' CBTG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=CKRG" target="_blank"><?php
+    echo gettext(' CKRG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=JTMY" target="_blank"><?php
+    echo gettext(' JTMY '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=KRWG" target="_blank"><?php
+    echo gettext(' KRWG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=MGHY" target="_blank"><?php
+    echo gettext(' MGHY '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=PRST" target="_blank"><?php
+    echo gettext(' PRST '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=TMBN" target="_blank"><?php
+    echo gettext(' TMBN '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus.php?Kelompok=WMJY" target="_blank"><?php
+    echo gettext(' WMJY '); ?></a>
+<br>
+
+Lap Per Kelpk (Photo):
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=BTRG" target="_blank"><?php
+    echo gettext(' BTRG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=CBTG" target="_blank"><?php
+    echo gettext(' CBTG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=CKRG" target="_blank"><?php
+    echo gettext(' CKRG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=JTMY" target="_blank"><?php
+    echo gettext(' JTMY '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=KRWG" target="_blank"><?php
+    echo gettext(' KRWG '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=MGHY" target="_blank"><?php
+    echo gettext(' MGHY '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=PRST" target="_blank"><?php
+    echo gettext(' PRST '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=TMBN" target="_blank"><?php
+    echo gettext(' TMBN '); ?></a> -
+<a class="MediumText" href="PrintViewDocStatus2.php?Kelompok=WMJY" target="_blank"><?php
+    echo gettext(' WMJY '); ?></a>
+<br>
+
+<p>
+<a class="MediumText" ><?php
+    echo gettext('Cetak Detail Data Warga Per Individu'); ?></a>
+<br>
+<a class="MediumText" href="PrintViewAll.php?Kelompok=BTRG" target="_blank"><?php
+    echo gettext(' BTRG '); ?></a><? echo "($BTRG data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=CBTG" target="_blank"><?php
+    echo gettext(' CBTG '); ?></a><? echo "($CBTG data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=CKRG" target="_blank"><?php
+    echo gettext(' CKRG '); ?></a><? echo "($CKRG data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=JTMY" target="_blank"><?php
+    echo gettext(' JTMY '); ?></a><? echo "($JTMY data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=KRWG" target="_blank"><?php
+    echo gettext(' KRWG '); ?></a><? echo "($KRWG data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=MGHY" target="_blank"><?php
+    echo gettext(' MGHY '); ?></a><? echo "($MGHY data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=PRST" target="_blank"><?php
+    echo gettext(' PRST '); ?></a><? echo "($PRST data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=TMBN" target="_blank"><?php
+    echo gettext(' TMBN '); ?></a><? echo "($TMBN data) " ;?> -
+<a class="MediumText" href="PrintViewAll.php?Kelompok=WMJY" target="_blank"><?php
+    echo gettext(' WMJY '); ?></a><? echo "($WMJY data) " ;?>
+
+
+
+<br>
+
+
+</p>
+
+
+<?php
+require 'Include/Footer.php';
+?>

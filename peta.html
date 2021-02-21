@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBiJIAG_yHRV1IVwmPNatDq3VbtnWmAsxA&sensor=false"></script>
+ 
+  </head>
+  <body>
+
+   <div id="map" style="width: 1024px; height: 500px"></div>
+<script type="text/javascript" src="Include/StyledMarker.js"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+
+  var myOptions = {
+       center: new google.maps.LatLng(-6.25114181457, 107.014974756),
+       zoom: 12,
+       mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map"), myOptions);   
+
+	  var churchMark = new StyledMarker({styleIcon:new StyledIcon(StyledIconTypes.MARKER,{color:"00ff00",text:"S"}),
+		position:new google.maps.LatLng(-6.25114181457, 107.014974756),map:map}); 
+	   
+ 
+	var churchInfoWin = new google.maps.InfoWindow({content: "Sinode GKJ Bekasi Timur<p>Bekasi Grand Centre No. F3, Jl. Cut Meutia,"});
+	google.maps.event.addListener(churchMark, "click", function() { churchInfoWin.open(map,churchMark);});
+ 
+
+
+	  var jemaatMark1 = new StyledMarker({styleIcon:new StyledIcon(StyledIconTypes.MARKER,{color:"9999ff",text:"1"}),
+		position:new google.maps.LatLng(-6.251141814575219, 107.0149747562948),map:map}); 			
+			
+ 						var jemaat1InfoWin = new google.maps.InfoWindow({content: " Cut Meutia<p>Bekasi Grand Centre No. F3<p>Jl. Cut Meutia, Bekasi"}); 
+			google.maps.event.addListener(jemaatMark1, "click", 
+			function() { jemaat1InfoWin.open(map,jemaatMark1); });
+		
+
+	  var jemaatMark2 = new StyledMarker({styleIcon:new StyledIcon(StyledIconTypes.MARKER,{color:"9999ff",text:"2"}),
+		position:new google.maps.LatLng(-6.26226197589618, 107.0692092186457),map:map}); 			
+			
+ 						var jemaat2InfoWin = new google.maps.InfoWindow({content: " Tambun<p>Sanggar Bipie<p>Jl. Baru, Kompas, Tambun, Bekasi"}); 
+			google.maps.event.addListener(jemaatMark2, "click", 
+			function() { jemaat2InfoWin.open(map,jemaatMark2); });
+		
+
+		 
+
+ 
+
+			var famMark1002 = new google.maps.Marker({
+            position: new google.maps.LatLng(-6.32372, 107.0199), map: map });
+ 						var fam1002InfoWin = new google.maps.InfoWindow({content: "Erwin Pratama GKJ Bandung & Lenny Purnama Wati <p>Bekasi Timur Regensi Blok D10 No.8 Bekasi<p>Bekasi, Jawa Barat  17151"}); 
+			google.maps.event.addListener(famMark1002, "click", 
+			function() { fam1002InfoWin.open(map,famMark1002); });
+		
+			var famMark1004 = new google.maps.Marker({
+            position: new google.maps.LatLng(-6.3274, 107.01851), map: map });
+ 						var fam1004InfoWin = new google.maps.InfoWindow({content: "Nugroho Widi Prasetyo Family<p>Bekasi Timur Regency Blok GI-11 Cimuning Bantar Gebang<p>Bekasi, Jawa Barat  17151"}); 
+			google.maps.event.addListener(famMark1004, "click", 
+			function() { fam1004InfoWin.open(map,famMark1004); });
+		
+
+		
+    //]]>
+    </script>
+
+  </body>
+</html>

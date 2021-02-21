@@ -1,0 +1,9 @@
+[17-Apr-2014 11:42:34 Asia/Jakarta] PHP Fatal error:  Call to undefined function FilterInput() in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 6
+[17-Apr-2014 11:43:33 Asia/Jakarta] PHP Warning:  require(Include/Functions.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 4
+[17-Apr-2014 11:43:33 Asia/Jakarta] PHP Warning:  require(Include/Functions.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 4
+[17-Apr-2014 11:43:33 Asia/Jakarta] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'Include/Functions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 4
+[17-Apr-2014 13:09:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected $end in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 48
+[22-Apr-2014 17:22:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting T_VARIABLE or '$' in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 126
+[30-Oct-2014 20:06:01 Asia/Jakarta] PHP Notice:  Undefined index: PersonID in /home/gkjbekas/public_html/datawarga/webcamcapture/simpanfoto.php on line 47
+[28-Feb-2017 09:50:28 UTC] PHP Notice:  Undefined index: PersonID in /home/gkjbekas/public_html/datawarga/webcamcapture/simpanfoto.php on line 47
+[28-Feb-2017 09:50:35 UTC] PHP Notice:  Undefined index: PersonID in /home/gkjbekas/public_html/datawarga/webcamcapture/index_person.php on line 50

@@ -1,0 +1,2993 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+msgstr "Les valeurs du mot de passe ne sont pas les memes! Merci de les saisir &agrave; nouveau."
+
+ 
+ 
+msgstr "Vous devez entrer un mot de passe au moins de 8 caract&egrave;res pour crypter cette sauvegarde."
+
+ 
+ 
+msgstr "Sauvegarder la Base de Donn&eacute;es"
+
+ 
+ 
+msgstr "Cet outil vous aidera en soutenant manuellement la base de donn&eacute;es d'InfoCentral."
+
+ 
+ 
+msgstr "Astuces:"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Vous devriez faire une protection manuelle au moins une fois par semaine &agrave; moins que vous ayez d&eacute;j&agrave; "
+"un proc&eacute;dure de sauvegarde r&eacute;guliere pour vos syst&egrave;mes."
+
+ 
+ 
+ 
+ 
+msgstr "Apr&egrave;s que vous t&eacute;l&eacute;chargiez le dossier de secours, vous devriez effectuer deux copies."
+"Mettez-en une dans un emplacement s&ucirc;r du site et l'autre dans un emplacement s&ucirc;r &agrave; l'ext&eacute;rieur du site."
+
+ 
+ 
+ 
+ 
+ 
+msgstr ""
+"Si vous etes pr&eacute;occup&eacute;s par la confidentialit&eacute; des donn&eacute;es stock&eacute;es dans la base de donn&eacute;es d'InfoCentral,"
+"vous devriez crypter les donn&eacute;es de sauvegarde si celle-ci sont quelque part potentiellement accessible &agrave; d'autres"
+
+ 
+ 
+ 
+ 
+ 
+msgstr ""
+"Pour ajouter une sauvegarde de s&eacute;curit&eacute;, vous pouvez vous envoyer un Email ou l'envoyer &agrave; un ami de confiance. "
+"Cependant, soyez s&ucirc;r d'employer l'encryptage si vous faites ceci."
+
+ 
+ 
+msgstr "S&eacute;lectionnez le type de sauvegarde:"
+
+ 
+ 
+msgstr "Gzip"
+
+ 
+ 
+msgstr "Zip"
+
+ 
+ 
+msgstr "Non compress&eacute;"
+
+ 
+ 
+msgstr "Encrypter les fichiers de sauvegarde avec un mot de passe?"
+
+ 
+ 
+msgstr "Mot de Passe:"
+
+ 
+ 
+msgstr "Retapez votre Mot de Passe:"
+
+ 
+ 
+msgstr "G&eacute;n&eacute;rez ou T&eacute;l&eacute;chargez Sauvegardes"
+
+ 
+ 
+msgstr "Effacement Fichiers Temporaires"
+
+ 
+ 
+msgstr "Export au format CSV"
+
+ 
+ 
+msgstr "Champs Standards"
+
+ 
+ 
+msgstr "Nom:"
+
+ 
+ 
+msgstr "Requis"
+
+ 
+ 
+msgstr "Titre:"
+
+ 
+ 
+msgstr "Pr&eacute;nom:"
+
+ 
+ 
+msgstr "Deuxi&egrave;me Pr&eacute;nom:"
+
+ 
+ 
+msgstr "Suffixe:"
+
+ 
+ 
+msgstr "Adresse1:"
+
+ 
+ 
+msgstr "Adresse2:"
+
+ 
+ 
+msgstr "Ville:"
+
+ 
+ 
+msgstr "État:"
+
+ 
+ 
+msgstr "Code postale:"
+
+ 
+ 
+msgstr "Pays:"
+
+ 
+ 
+ 
+ 
+msgstr "T&eacute;l&eacute;phone Personnel:"
+
+ 
+ 
+ 
+ 
+msgstr "T&eacute;l&eacute;phone Professionnel:"
+
+ 
+ 
+ 
+ 
+msgstr "Portable:"
+
+ 
+ 
+ 
+ 
+msgstr "Email:"
+
+ 
+ 
+msgstr "Email Travail / Autre:"
+
+ 
+ 
+msgstr "Valeur d'Enveloppe"
+
+ 
+ 
+ 
+msgstr "Date d'Adh&eacute;sion:"
+
+ 
+ 
+msgstr "* Date De Naissance / Anniversaire:"
+
+ 
+ 
+msgstr "* Dur&eacute;e / Ann&eacute;es de Mariage:"
+
+ 
+ 
+msgstr "R&ocirc;le Famille"
+
+ 
+ 
+msgstr "* D&eacute;pend de la m&eacute;thode de sortie choisie par l'utilisateur"
+
+ 
+ 
+ 
+msgstr "Champs Personnalis&eacute;s"
+
+ 
+ 
+msgstr "Filtres"
+
+ 
+ 
+msgstr "Enregistrements &agrave; exporter:"
+
+ 
+ 
+msgstr "Bas&eacute; sur des filtres ci-dessous.."
+
+ 
+ 
+msgstr "Personne dans le Panier (filtres ignor&eacute;s)"
+
+ 
+ 
+msgstr "Classification:"
+
+ 
+ 
+ 
+msgstr "Utilisez la touche Ctrl pour une s&eacute;lection multiple"
+
+ 
+ 
+msgstr "Sexe:"
+
+ 
+ 
+msgstr "Ne Pas Filtrer"
+
+ 
+ 
+ 
+ 
+msgstr "Masculin"
+
+ 
+ 
+ 
+ 
+msgstr "F&eacute;minin"
+
+ 
+ 
+msgstr "Adh&eacute;sion au Groupe:"
+
+ 
+ 
+msgstr "De:"
+
+ 
+ 
+msgstr "A:"
+
+ 
+ 
+ 
+msgstr "[format: AAAA-MM-JJ]"
+
+ 
+ 
+msgstr "Date de Naissance:"
+
+ 
+ 
+msgstr "Date d'Anniversaire:"
+
+ 
+ 
+msgstr "Date d'Entr&eacute;e:"
+
+ 
+ 
+msgstr "M&eacute;thode d'Exportation:"
+
+ 
+ 
+msgstr "Enregistrements individuels CSV"
+
+ 
+ 
+msgstr "Donn&eacute;es Familles en CVS"
+
+ 
+ 
+msgstr "Ajoutez des individus au panier"
+
+ 
+ 
+msgstr "Ignorer les enregistrements qui ont une adresse email incompl&egrave;te "
+
+ 
+ 
+msgstr "Ignorer les enregistrements qui n'ont pas de valeur d'enveloppe"
+
+ 
+ 
+msgstr "(Enregistrements individuels seulement)"
+
+ 
+ 
+msgstr "Dossier cr&eacute;&eacute;"
+
+ 
+ 
+msgstr "Ajouter au Panier Groupe"
+
+ 
+ 
+msgstr "Groupe invalide ou aucun R&ocirc;les disponibles!"
+
+ 
+ 
+msgstr "S&eacute;lectionnez le groupe que vous voulez ajouter &agrave; votre panier:"
+
+ 
+ 
+msgstr "Choisissez le groupe:"
+
+ 
+ 
+ 
+msgstr "Aucun"
+
+ 
+ 
+msgstr "Choisissez le R&ocirc;le:"
+
+ 
+ 
+msgstr "Aucun groupe s&eacute;lectionn&eacute;"
+
+ 
+ 
+msgstr "Ajoutez au groupe"
+
+ 
+ 
+msgstr "OU"
+
+ 
+ 
+msgstr "Cr&eacute;ez un nouveau groupe"
+
+ 
+ 
+msgstr "Votre panier est vide!"
+
+ 
+ 
+msgstr "Consulter votre panier"
+
+ 
+ 
+msgstr "Vous n'avez aucun &eacute;l&eacute;ment dans votre panier."
+
+ 
+ 
+msgstr "Vous avez"
+
+ 
+ 
+msgstr "&eacute;l&eacute;ment(s) dans votre panier"
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+msgstr "Nom"
+
+ 
+ 
+msgstr "Adresse?"
+
+ 
+ 
+msgstr "Email?"
+
+ 
+ 
+ 
+ 
+msgstr "Supprimer"
+
+ 
+ 
+ 
+msgstr "Oui"
+
+ 
+ 
+ 
+msgstr "Non"
+
+ 
+ 
+msgstr "Fonctions du Panier"
+
+ 
+ 
+msgstr "Vider le Panier"
+
+ 
+ 
+msgstr "Vider le Panier Groupe"
+
+ 
+ 
+msgstr "Envoyez Email au contenu du Panier"
+
+ 
+ 
+msgstr "Cr&eacute;ez des Etiquettes"
+
+ 
+ 
+msgstr "Tous les Individus"
+
+ 
+ 
+msgstr "Group&eacute; par Famille"
+
+ 
+ 
+msgstr "Type d'&eacute;tiquette:"
+
+ 
+ 
+msgstr "Ligne de D&eacute;part:"
+
+ 
+ 
+msgstr "Colonne de D&eacute;part:"
+
+ 
+ 
+msgstr "Ignorez les Adresses<br>Incompl&egrave;te s:"
+
+ 
+ 
+msgstr "Mot de passe invalide"
+
+ 
+ 
+msgstr "InfoCentral: Identifiant"
+
+ 
+ 
+msgstr "Merci de vous identifier"
+
+ 
+ 
+msgstr "S&eacute;lectionnez votre nom d'Utilisateur:"
+
+ 
+ 
+msgstr "Choisissez votre nom utilisateur"
+
+ 
+ 
+msgstr "Entrez votre mot de passe:"
+
+ 
+ 
+msgstr "Identifi&eacute;"
+
+ 
+ 
+msgstr "Liste des Rapports"
+
+ 
+ 
+msgstr "Choisissez les classifications &agrave; inclure"
+
+ 
+ 
+msgstr "Quel est le R&ocirc;le du chef de famille?"
+
+ 
+ 
+msgstr "Quel est le R&ocirc;le du conjoint?"
+
+ 
+ 
+msgstr "Quel R&ocirc;le de l'enfant?"
+
+ 
+ 
+msgstr "Information &agrave; Inclure:"
+
+ 
+ 
+ 
+ 
+msgstr "Adresse"
+
+ 
+ 
+msgstr "Date de Mariage:"
+
+ 
+ 
+msgstr "Anniversaire:"
+
+ 
+ 
+msgstr "T&eacute;l&eacute;phone Personnel"
+
+
+
+msgstr "T&eacute;l&eacute;phone Professionnel"
+
+
+
+msgstr "T&eacute;l&eacute;phone Portable Personnel"
+
+
+
+msgstr "Email personnel"
+
+
+
+msgstr "T&eacute;l&eacute;phone Personnel"
+
+
+
+msgstr "T&eacute;l&eacute;phone Personnel du travail"
+
+
+
+msgstr "T&eacute;l&eacute;phone Portable Personnel"
+
+
+
+msgstr "Email Personnel"
+
+
+
+msgstr "Email Personnel Travail/Autre:"
+
+
+
+msgstr "Titre de la page:"
+
+
+
+msgstr "Utilisez Titre Page"
+
+
+
+msgstr "Nom de la Soci&eacute;t&eacute;"
+
+
+
+
+msgstr "Ville"
+
+
+
+
+msgstr "État"
+
+
+
+
+
+msgstr "T&eacute;l&eacute;phone"
+
+
+
+msgstr "Avertissement"
+
+
+
+msgstr "Cr&eacute;er Dossier"
+
+
+
+
+
+
+
+ 
+msgstr "Annuler"
+
+
+
+msgstr "Effacement des Donn&eacute;es Confirm&eacute;"
+
+
+
+msgstr "Veuillez confirmer la suppression de:"
+
+
+
+msgstr "Num&eacute;ro de Reçu:"
+
+
+
+msgstr "Nom du Cotisant:"
+
+
+
+msgstr "Quantit&eacute;:"
+
+
+
+msgstr "Date:"
+
+
+
+msgstr "Moyen de paiement:"
+
+
+
+msgstr "V&eacute;rifiez le nombre:"
+
+ 
+ 
+
+
+msgstr "oui, supprimer cet enregistrement"
+
+
+
+msgstr "(cette action NE PEUT PAS &ecirc;tre  annul&eacute;e!)"
+
+ 
+ 
+
+
+msgstr "Non, annuler cette suppression"
+
+
+
+msgstr "Ajouter/Modifier une Cotisation"
+
+
+
+msgstr "Vous devez &eacute;crire un nombre valide."
+
+
+
+msgstr "Vous devez s&eacute;lectionner un moyen de paiement."
+
+
+
+msgstr "Le format de la date est invalide"
+
+
+
+msgstr "La valeur de l'Enveloppe est invalide"
+
+
+
+msgstr "Le nombre d'enveloppe doit toujours &ecirc;tre <br>indiqu&eacute; dans le mode d'entr&eacute;e batch"
+
+
+
+msgstr "Adresse Information:"
+
+
+
+msgstr "Entr&eacute;e en mode Batch"
+
+
+
+msgstr "Date de la Cotisation:"
+
+
+
+msgstr "Association par D&eacute;faut:"
+
+
+
+msgstr "Type par d&eacute;faut:"
+
+
+
+msgstr "liquide"
+
+
+
+msgstr "ch&egrave;que"
+
+
+
+msgstr "carte de cr&eacute;dit"
+
+
+
+msgstr "Effacer"
+
+
+
+msgstr "Supprimer"
+
+
+
+msgstr "Enveloppe:"
+
+
+
+msgstr "Vous devez au moins entrer une association / montant par ligne."
+
+
+
+msgstr "Association"
+
+ 
+
+
+msgstr "Montant"
+
+
+
+msgstr "inactive"
+
+
+
+msgstr "Total:"
+
+
+
+msgstr "Entrer une Cotisation"
+
+ 
+ 
+ 
+ 
+ 
+
+
+msgstr "Sortir"
+
+
+
+msgstr "Gestion des Enveloppes pour les Cotisations"
+
+
+
+msgstr "Enveloppes Assign&eacute;es:"
+
+
+
+msgstr "Enveloppes Assign&eacute;es cette Ann&eacute;e:"
+
+
+
+msgstr "Valeur de l'Enveloppe la plus Elev&eacute;e:"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"<b>Attention :</b> Ce moyen de redistribution d'enveloppe changera "
+"<i>chaque</i>valeur d'enveloppe.<br>"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Vous devriez seulement employer ceci si vous distribuez de nouvelles "
+"enveloppes (comme au d&eacute;but"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"un nouvel exercice fiscal) Ce moyen attribuera de nouvelles enveloppes "
+"alphab&eacute;tiquement par Nom /"
+
+
+
+msgstr "Pr&eacute;nom <i>seulement</i> pour ceux qui ont <i>d&eacute;j&agrave;</i> une enveloppe d'assign&eacute;e."
+
+
+
+msgstr "Oui, attribuez &agrave; nouveau les enveloppes (cette action NE PEUT PAS &ecirc;tre  annul&eacute;e!)"
+
+
+
+msgstr "Non, annuler cette op&eacute;ration."
+
+
+
+msgstr "Montrez une liste de toutes les enveloppes assign&eacute;es"
+
+
+
+msgstr "Assign&eacute; automatiquement des enveloppes &agrave; toutes les personnes dans le panier qui sont sans enveloppes"
+
+
+
+msgstr "Attribuez &agrave; nouveau toutes les enveloppes existantes par noms des assign&eacute;s dans l'ordre alphab&eacute;tique"
+
+
+
+msgstr "Impossible de supprimer cette association.  Elle est utilis&eacute;e par "
+
+
+
+msgstr " cotisations!"
+
+
+
+msgstr "Gestionnaire de Cotisations par Associations"
+
+
+
+msgstr "Etes vous s&ucirc;r de vouloir supprimer ces Associations?"
+
+
+
+msgstr "Aucune Association n'a encore &eacute;t&eacute; ajout&eacute;e"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Attention: Les champs modifi&eacute;s seront perdus si vous ne 'Sauvez pas les Changements"
+"avant d'utiliser les boutons supprimer ou 'ajouter nouveau'"
+
+ 
+ 
+ 
+ 
+ 
+msgstr ""
+"Champs ou choix invalides.  Changements non sauv&eacute;s!  Svp corrigez et essayez "
+"encore!"
+
+ 
+ 
+ 
+ 
+ 
+msgstr "Sauver les Changements"
+
+ 
+ 
+msgstr "D&eacute;signation"
+
+ 
+ 
+msgstr "Actif"
+
+ 
+ 
+
+
+msgstr "Vous devez entrer un nom."
+
+ 
+ 
+
+
+msgstr "Nom:"
+
+ 
+
+
+msgstr "Description:"
+
+
+
+msgstr "Ajouter Nouvelle Association"
+
+
+
+msgstr "D&eacute;placer des Cotisations"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Ce dispositif d'entretien vous permet de d&eacute;placer tous les enregistrements "
+"des cotisations d'une personne &agrave; un autre membre."
+
+
+
+msgstr "D&eacute;placement De:"
+
+
+
+msgstr "D&eacute;placement A:"
+
+
+
+msgstr "Merci de confirmer ce d&eacute;placement.."
+
+
+
+msgstr "Confirmer"
+
+
+
+msgstr "Pour choisir un destinataire, vous devez d'abord l'ajouter au panier."
+
+
+
+msgstr "D&eacute;placer"
+
+
+
+msgstr "Reporter la Cotisation"
+
+
+
+msgstr "pour"
+
+
+
+msgstr "Total"
+
+
+
+msgstr "Cotisations Total:"
+
+
+
+msgstr "Pr&eacute;nom"
+
+
+
+msgstr "Nom"
+
+
+
+msgstr "N° de Reçu"
+
+
+
+msgstr "Choisissez la date pour calculer le total dans chaque association pour"
+
+
+
+msgstr "Ex&eacute;cutez la Requ&ecirc;te "
+
+
+
+msgstr "Voir les Cotisations"
+
+
+
+msgstr "Revenir &agrave; la fiche Personne"
+
+
+
+msgstr "Voir"
+
+
+
+msgstr "lettre de dispense"
+
+
+
+msgstr "Voir les D&eacute;tails"
+
+
+
+msgstr "Cacher les D&eacute;tails"
+
+
+
+msgstr "Ajouter une nouvelle Cotisation"
+
+
+
+msgstr "D&eacute;placer toutes les Cotisations"
+
+ 
+
+
+msgstr "Date"
+
+ 
+ 
+ 
+
+
+msgstr "Type"
+
+
+
+msgstr "Ch&egrave;que N°"
+
+
+
+msgstr "Reçu"
+
+
+
+msgstr "Options"
+
+ 
+ 
+
+
+msgstr "Modifier"
+
+ 
+ 
+
+
+msgstr "Supprimer"
+
+
+
+msgstr "Cotisation par Association"
+
+
+
+msgstr "Num&eacute;ro du Reçu:"
+
+
+
+msgstr "Esp&egrave;ce"
+
+
+
+msgstr "Ch&egrave;que"
+
+
+
+msgstr "Carte de Cr&eacute;dit"
+
+
+
+msgstr "Cher"
+
+
+
+msgstr "Reçu:"
+
+ 
+
+
+msgstr "Type:"
+
+
+
+msgstr "Gestion des Familles"
+
+
+
+msgstr "Vous devez entrer un Nom."
+
+
+
+msgstr "La Date de Mariage est Invalide"
+
+ 
+ 
+ 
+ 
+
+
+msgstr "Sauver"
+
+
+
+msgstr "Sauver et Ajouter"
+
+
+
+msgstr "Nom de Famille"
+
+
+
+msgstr "(Utiliser ce champ pour les personnes n'habitant pas les USA)"
+
+ 
+ 
+
+
+msgstr "Ne pas utiliser le format automatique"
+
+
+
+msgstr "Date de Mariage:"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Vous pouvez cr&eacute;er des membres de famille maintenant ou les ajouter plus tard.  Toutes les entr&eacute;es "
+"deviendront de <i>nouveaux</i> enregistrement de personne."
+
+
+
+msgstr "Nom Complet"
+
+
+
+msgstr "Date d'Anniversaire"
+
+
+
+msgstr "Membres de la Famille"
+
+
+
+msgstr "Pr&eacute;nom"
+
+
+
+msgstr "Second pr&eacute;nom"
+
+
+
+msgstr "Nom"
+
+ 
+
+
+msgstr "Sexe"
+
+ 
+ 
+
+
+msgstr "R&ocirc;le"
+
+
+
+msgstr "Mois"
+
+
+
+msgstr "Jour"
+
+
+
+msgstr "Ann&eacute;e"
+
+
+
+msgstr "S&eacute;lectionner le Sexe"
+
+
+
+msgstr "S&eacute;lectionner le R&ocirc;le"
+
+
+
+msgstr "Inconnu"
+
+
+
+msgstr "Janvier"
+
+
+
+msgstr "F&eacute;vrier"
+
+
+
+msgstr "Mars"
+
+
+
+msgstr "Avril"
+
+
+
+msgstr "Mai"
+
+
+
+msgstr "Juin"
+
+
+
+msgstr "Juillet"
+
+
+
+msgstr "Ao&ucirc;t "
+
+
+
+msgstr "Septembre"
+
+
+
+msgstr "Octobre"
+
+
+
+msgstr "Novembre"
+
+
+
+msgstr "D&eacute;cembre"
+
+
+
+msgstr "Vue De Famille"
+
+
+
+msgstr "Modifier cet Enregistrement"
+
+
+
+msgstr "Effacer cet Enregistrement"
+
+
+
+msgstr "La"
+
+ 
+ 
+
+
+msgstr "Famille"
+
+
+
+msgstr "Vue de la Carte"
+
+
+
+msgstr "Aucune photo n'a &eacute;t&eacute; s&eacute;lectionn&eacute; pour le t&eacute;l&eacute;chargement."
+
+
+
+msgstr "Il n'y a seulement que les photos au format jpeg qui peuvent &ecirc;tre  t&eacute;l&eacute;charg&eacute;e."
+
+
+
+msgstr "Photo supprim&eacute;e"
+
+
+
+msgstr "T&eacute;l&eacute;charger Photo"
+
+
+
+msgstr "Information G&eacute;n&eacute;rale:"
+
+
+
+msgstr "Propri&eacute;t&eacute;s Assign&eacute;es:"
+
+
+
+msgstr "Aucune propri&eacute;t&eacute;s n'est assign&eacute;es."
+
+ 
+
+
+msgstr "Valeur"
+
+
+
+msgstr "Modifier la Valeur"
+
+
+
+msgstr "Assigner une Nouvelle Propri&eacute;t&eacute;:"
+
+ 
+
+
+msgstr "Ins&eacute;rer"
+
+
+
+msgstr "Derniere modification:"
+
+ 
+
+
+msgstr "par"
+
+
+
+msgstr "Membres de la Famille:"
+
+
+
+msgstr "Age"
+
+
+
+msgstr "Classification"
+
+
+
+msgstr "Assigner une Nouvelle Classification:"
+
+
+
+msgstr "S&eacute;lectionnez la Classification"
+
+
+
+msgstr "Changer"
+
+
+
+msgstr "(Ceci remettra &agrave; z&eacute;ro la classification de TOUS LES membres de la Famille.)"
+
+
+
+msgstr "Notes:"
+
+
+
+msgstr "Ajouter une Note &agrave; cet Enregistrement"
+
+
+
+msgstr "Derniere Modification:"
+
+
+
+msgstr "Modifier cette Note"
+
+
+
+msgstr "Supprimer cette Note"
+
+
+
+msgstr "Confirmation de Suppression du Groupe"
+
+
+
+msgstr "Merci de confirmer la suppression de ce groupe d'enregistrement:"
+
+
+
+
+
+msgstr ""
+"Ceci supprimera &eacute;galement tous les r&ocirc;les et donn&eacute;es des propri&eacute;t&eacute;s d'un groupe sp&eacute;cifique li&eacute;s "
+"&agrave; ce groupe d'enregistrement."
+
+
+
+msgstr "(cette action ne peut pas &ecirc;tre  annul&eacute;e)"
+
+
+
+msgstr "Gestion de Groupe"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"&Ecirc;tes-vous s&ucirc;r vous voulez enlever les propri&eacute;t&eacute;s d'un groupe sp&eacute;cifique de personne?"
+"Toutes les donn&eacute;es de propri&eacute;t&eacute;s du membre du groupe seront perdues!"
+
+ 
+ 
+ 
+ 
+ 
+msgstr ""
+"Ceci cr&eacute;era une table groupe-sp&eacute;cifique des propri&eacute;t&eacute;s pour ce groupe. Vous "
+"devriez alors ajouter les propri&eacute;t&eacute;s n&eacute;cessaires avec la gestion du formulaire "
+"des propri&eacute;t&eacute;s d'un groupe sp&eacute;cifique."
+
+
+
+msgstr "Type de Groupe:"
+
+ 
+
+
+
+msgstr "Non assign&eacute;"
+
+
+
+msgstr "Propri&eacute;t&eacute;s Sp&eacute;cifiques <br>d'un Groupe:"
+
+
+
+msgstr "Voulez-vous utiliser les propri&eacute;t&eacute;s sp&eacute;cifiques d'un groupe?"
+
+
+
+msgstr "Modifier les Propri&eacute;t&eacute;s Sp&eacute;cifiques du Formulaire pour un Groupe"
+
+
+
+msgstr "Vider le panier pour ce groupe?"
+
+
+
+msgstr "R&ocirc;les du Groupe:"
+
+
+
+msgstr "Cr&eacute;ation Initiale de Groupe:  Les R&ocirc;les de groupe peuvent &ecirc;tre  modifi&eacute;s apr&egrave;s la premiere sauvegarde."
+
+
+
+msgstr "Liste des Groupes"
+
+
+
+msgstr "Ajouter Nouveau Groupe"
+
+
+
+msgstr "Membres"
+
+
+
+msgstr "Ind&eacute;fini"
+
+ 
+
+
+msgstr "Tout voir"
+
+
+
+msgstr "Voir seulement"
+
+
+
+msgstr "Aller"
+
+
+
+msgstr "Page Pr&eacute;c&eacute;dente"
+
+
+
+msgstr "Page Suivante"
+
+
+
+msgstr "R&ocirc;le du Groupe"
+
+
+
+msgstr "Code Postal"
+
+ 
+
+
+msgstr "T&eacute;l&eacute;phone Personnel"
+
+
+
+msgstr "Email"
+
+
+
+msgstr "Gestion des Propri&eacute;t&eacute;s des Membres du Groupe"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Ce groupe n'a actuellement aucune propri&eacute;t&eacute;!  Vous pouvez l'ajouter dans "
+"l'&eacute;diteur de Groupe."
+
+
+
+msgstr "Retourner &agrave; l'enregistrement des personnes"
+
+
+
+msgstr "Modifi&eacute;"
+
+
+
+msgstr "donn&eacute;es du membre"
+
+
+
+msgstr "Éditeur de Formulaire des Propri&eacute;t&eacute;s Sp&eacute;cifiques du Groupe:"
+
+
+
+msgstr "'Option par D&eacute;faut'"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Attention:  En supprimant ce champ, vous perdrez de fait toutes les "
+"donn&eacute;es assign&eacute;es &agrave; ce champ pour ce membre du groupe !"
+
+
+
+msgstr "Aucune propri&eacute;t&eacute; n'a encore &eacute;t&eacute; ajout&eacute;"
+
+ 
+ 
+ 
+ 
+msgstr "Attention: Les champs modifi&eacute;s seront perdus si vous ne 'Sauvez les Changements' avant'utiliser les bouton haut, bas, supprimer ou 'ajouter nouveau'"
+
+
+
+msgstr "Option Sp&eacute;ciale"
+
+
+
+msgstr "Montrer"
+
+
+
+msgstr "Voir Fiche Personne"
+
+
+
+msgstr "S&eacute;lectionner un groupe"
+
+
+
+msgstr "Vous devez s&eacute;lectionner un groupe."
+
+
+
+msgstr "Aide sur les types.."
+
+
+
+msgstr "Ce nom de champ existe d&eacute;j&agrave;."
+
+
+
+msgstr "Ajouter Nouveaux Champs"
+
+
+
+msgstr "Rapport du Groupe"
+
+
+
+msgstr "S&eacute;lectionnez le groupe pour lequel vous voulez un rapport:"
+
+
+
+msgstr "Seulement le Panier des Personnes?:"
+
+
+
+msgstr "Mod&egrave;le de Rapport"
+
+
+
+msgstr "Rapport pour le groupe et le r&ocirc;le s&eacute;lectionn&eacute;s"
+
+
+
+msgstr "Rapport pour n'importe quel r&ocirc;le dans le groupe choisi"
+
+
+
+msgstr "Suivant"
+
+
+
+msgstr "S&eacute;lectionnez les informations que vous voulez inclure"
+
+
+
+msgstr "Information Standard"
+
+
+
+msgstr "T&eacute;l&eacute;phone Professionnel"
+
+
+
+msgstr "T&eacute;l&eacute;phone Portable"
+
+ 
+ 
+
+
+msgstr "Email"
+
+
+
+msgstr "Autre Email"
+
+
+
+msgstr "R&ocirc;le"
+
+
+
+msgstr "Propri&eacute;t&eacute; des Champs Sp&eacute;cifiques au Groupe:"
+
+
+
+msgstr "Cr&eacute;er un Rapport"
+
+
+
+msgstr "Voir Groupe"
+
+
+
+msgstr "Modifier ce Groupe"
+
+
+
+msgstr "Supprimer ce Groupe"
+
+
+
+msgstr "Ajouter Membres du Groupe au Panier"
+
+
+
+msgstr "Imprimer les Membres du Groupe"
+
+
+
+msgstr "Tous les Membres:"
+
+
+
+msgstr "R&ocirc;le par D&eacute;faut:"
+
+
+
+msgstr "Propri&eacute;t&eacute;s Sp&eacute;cifiques au Groupe:"
+
+
+
+msgstr "Inutilisable pour ce groupe."
+
+ 
+
+
+msgstr "Assign&eacute;"
+
+
+
+msgstr "Membres du Groupe:"
+
+
+
+msgstr "Modifier le R&ocirc;le du Membre"
+
+
+
+msgstr "Nom du Groupe:"
+
+
+
+msgstr "Noms des Membres:"
+
+
+
+msgstr "R&ocirc;le Actuel:"
+
+
+
+msgstr "Nouveau R&ocirc;le:"
+
+
+
+msgstr "Mise &agrave; jour"
+
+
+
+msgstr "Bienvenue dans InfoCentral"
+
+
+
+msgstr "Bonjour"
+
+
+
+msgstr "et bienvenue"
+
+
+
+msgstr "C'est la premiere fois que vous vous connectez"
+
+
+
+msgstr "Votre derniere connexion date du "
+
+
+
+msgstr "&agrave;"
+
+
+
+msgstr "Vous avez"
+
+
+
+msgstr "tentative(s) d'ouverture(s) &eacute;chou&eacute;e(s) depuis votre derniere ouverture r&eacute;ussie."
+
+
+
+msgstr "Confirmation de la suppression de la note"
+
+
+
+msgstr "Merci de bien vouloir confirmer le suppression de la note:"
+
+
+
+msgstr "Éditeur de Note"
+
+
+
+msgstr "Priv&eacute;"
+
+ 
+ 
+
+
+msgstr "Personne"
+
+ 
+
+
+msgstr "Groupe"
+
+
+
+msgstr "Membre du Groupe"
+
+
+
+msgstr "Liste Personnalis&eacute;e"
+
+
+
+msgstr "Option"
+
+
+
+msgstr "Attention:  Si vous supprimez ceci"
+
+
+
+msgstr ", tous les "
+
+
+
+msgstr "s seront utilis&eacute;s comme les valeurs par d&eacute;fauts."
+
+
+
+msgstr "Erreur: Duplication"
+
+
+
+msgstr "s ne sont pas permis."
+
+
+
+msgstr "D&eacute;faut"
+
+
+
+msgstr "Mise par D&eacute;faut"
+
+
+
+msgstr "Ajouter Nouveau"
+
+
+
+msgstr "Erreur: Vous devez entrer un nom."
+
+
+
+msgstr "Erreur: Un"
+
+
+
+msgstr " par ce nom existe d&eacute;j&agrave;."
+
+
+
+msgstr "Gestionnaire des Champs Personnalis&eacute;s"
+
+
+
+msgstr "Option par D&eacute;faut"
+
+
+
+ 
+ 
+msgstr ""
+"Attention: En supprimant ce champ, vous perdrez de fait toutes les donn&eacute;es de personne "
+"assign&eacute;es &agrave; ce champ!"
+
+
+
+msgstr "Aucun champ personnalis&eacute; n'a encore &eacute;t&eacute; ins&eacute;r&eacute;"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Attention: Les champs modifi&eacute;s seront perdus si vous ne 'Sauvez pas les Changements avant"
+" d'utiliser les boutons haut, bas, supprimer ou 'ajouter nouveau'"
+
+
+
+msgstr "Personne - Fiche Associ&eacute;e"
+
+
+
+msgstr "Modifier la Liste des Options"
+
+
+
+msgstr "Gauche"
+
+
+
+msgstr "Droite"
+
+
+
+msgstr "Vous devez entrer un nom"
+
+
+
+msgstr "Côt&eacute;:"
+
+
+
+msgstr "Gestionnaire des Personnes"
+
+
+
+msgstr "Vous devez entrer un Pr&eacute;nom."
+
+
+
+msgstr "Vous devez entrer un Nom si aucune Famille n'a &eacute;t&eacute; s&eacute;lectionn&eacute;e."
+
+
+
+msgstr "Ann&eacute;e Invalide:  les valeurs permises sont comprise entre 1901 et 2155"
+
+
+
+msgstr "Date de Naissance Invalide."
+
+
+
+msgstr "Date d'Adh&eacute;sion Invalide"
+
+
+
+msgstr "Mettre &eacute;l&eacute;ments dans"
+
+
+
+msgstr "rouge"
+
+
+
+msgstr "a des valeurs correspondantes aux enregistrements associ&eacute;s &agrave; cette Famille."
+
+
+
+msgstr "Enveloppe De Cotisation:"
+
+
+
+msgstr "Famille:"
+
+
+
+msgstr "Travail / Autres Email:"
+
+
+
+msgstr "Date de Naissance:"
+
+
+
+msgstr "N/D"
+
+
+
+msgstr "Ann&eacute;e de Naissance:"
+
+
+
+msgstr "Vous devez saisir 4 chiffres."
+
+
+
+msgstr "Non assign&eacute;"
+
+
+
+msgstr "Page Imprimable"
+
+
+
+msgstr "Ajouter au Panier"
+
+
+
+msgstr "Cr&eacute;er Utilisateur"
+
+
+
+msgstr "Modifier Utilisateur"
+
+
+
+msgstr "Ajouter une Cotisation"
+
+
+
+msgstr "Membre"
+
+
+
+msgstr " de la"
+
+
+
+msgstr " famille)"
+
+
+
+msgstr "(Aucune Famille assign&eacute;e)"
+
+
+
+msgstr "Date de naissance:"
+
+
+
+msgstr "Age:"
+
+
+
+msgstr "Groupes Assign&eacute;s:"
+
+
+
+ 
+ 
+msgstr ""
+"Attention: Si vous enlevez cette adh&eacute;sion de groupe, vous perdrez de fait toutes "
+"les donn&eacute;es associ&eacute;es au membre"
+
+
+
+msgstr "Aucun groupe assign&eacute;."
+
+
+
+msgstr "Nom du groupe"
+
+
+
+msgid "Properties"
+msgstr "Propri&eacute;t&eacute;s"
+#: PersonView.php:537
+
+msgstr "Voir/Modifier"
+
+
+
+msgstr "Propri&eacute;t&eacute;s"
+
+
+
+msgstr "Assign&eacute; un Nouveau Groupe:"
+
+
+
+msgstr "(La Personne sera affect&eacute;e au Groupe avec un R&ocirc;le par d&eacute;faut.)"
+
+
+
+msgstr "Imprimer Page pour cet enregistrement"
+
+
+
+msgstr "Texte en Rouge"
+
+
+
+msgstr "indique les objets h&eacute;rit&eacute;s de l'enregistrement associ&eacute; &agrave; la famille."
+
+
+
+msgstr "Membres du Groupe : "
+
+
+
+msgstr "Travail / Autre Email"
+
+
+
+msgstr "Impression de la Liste de Personnes"
+
+
+
+msgstr "Date d'Entr&eacute;e"
+
+
+
+msgstr "Aperçu Avant Impression"
+
+
+
+msgstr "Date de Naissance:"
+
+
+
+msgstr "La propri&eacute;t&eacute; a &eacute;t&eacute; affect&eacute;e avec succ&egrave;s."
+
+
+
+msgstr " Affectation de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Assign&eacute;e:"
+
+
+
+msgstr "Valeur:"
+
+
+
+msgstr "Confirmer la Suppression de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Merci de confirmer la suppression de cette propri&eacute;t&eacute;:"
+
+
+
+ 
+ 
+msgstr ""
+"Supprimer cette propri&eacute;t&eacute; entrainera &eacute;galement toutes les suppressions des propri&eacute;t&eacute;s "
+"associ&eacute;es de tous les enregistrement de personne, de famille, ou de groupe."
+
+
+
+msgstr "Éditeur de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Vous devez entrer un Nom"
+
+
+
+msgstr "Vous devez s&eacute;lectionner un Type"
+
+
+
+msgstr "S&eacute;lectionnez un Type de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Un"
+
+
+
+msgstr "avec cette propri&eacute;t&eacute;..."
+
+
+
+msgstr "Demande:"
+
+
+
+msgstr "Accepter cette valeur vous permettra d'associer de nouveaux champs personnalis&eacute;s"
+
+
+
+msgstr "Liste des Propri&eacute;t&eacute;s"
+
+
+
+msgstr "Ajouter un Nouveau"
+
+
+
+msgstr "avec cette Propri&eacute;t&eacute;..."
+
+
+
+msgstr "Demande"
+
+
+
+msgstr "Confirmation Suppression Type de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Attention"
+
+
+
+msgstr "Ce type de propri&eacute;t&eacute; est associ&eacute;e &agrave; une autre propri&eacute;t&eacute; minimum."
+
+
+
+msgstr "Si vous supprimez ce type, vous enl&egrave;verez &eacute;galement tout les propri&eacute;t&eacute;s associ&eacute;es"
+
+
+
+msgstr "et vous perdrez toutes les propri&eacute;t&eacute;s des tâches correspondantes."
+
+
+
+msgstr "Merci de confirmer la suppression du Type de Propri&eacute;t&eacute;:"
+
+
+
+msgstr "Gestionnaire de Type de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Classe:"
+
+
+
+msgstr "Liste Types de Propri&eacute;t&eacute;s"
+
+
+
+msgstr "Ajouter Nouveau Type de Propri&eacute;t&eacute;"
+
+
+
+msgstr "Classe"
+
+
+
+msgstr " Propri&eacute;t&eacute; non Assign&eacute;e"
+
+
+
+msgstr "Veuillez confirmer le d&eacute;placement de cette propri&eacute;t&eacute;"
+
+
+
+msgstr "Non assign&eacute;:"
+
+
+
+msgstr "Oui, annuler cette Propri&eacute;t&eacute;"
+
+
+
+msgstr "Non, maintenir cette tâche"
+
+
+
+msgstr "Liste des Requ&ecirc;te s"
+
+
+
+msgstr "Ex&eacute;cuter une Requ&ecirc;te  Libre"
+
+
+
+msgstr "Requ&ecirc;te  Texte Libre"
+
+
+
+msgstr "Ex&eacute;cuter SQL"
+
+
+
+msgstr "Une erreur s'est produite: "
+
+
+
+msgstr "Visualisation de la Requ&ecirc;te "
+
+
+
+msgstr "Cette valeur est exig&eacute;e."
+
+
+
+msgstr "Cette valeur doit &ecirc;tre  de type num&eacute;rique."
+
+
+
+msgstr "Cette valeur doit &ecirc;tre  au moins "
+
+
+
+msgstr "Cette valeur ne peut pas &ecirc;tre  sup&eacute;rieure &agrave; "
+
+
+
+msgstr " caract&egrave;res"
+
+
+
+msgstr "Cette valeur ne peut pas &ecirc;tre  inf&eacute;rieure &agrave; "
+
+
+
+msgstr " enregistrement(s) retourn&eacute;(s)"
+
+
+
+msgstr "Ajouter R&eacute;sultats au Panier"
+
+
+
+msgstr "Ex&eacute;cuter Requ&ecirc;te  &agrave; Nouveau"
+
+
+
+msgstr "Retour Menu Requ&ecirc;te "
+
+
+
+msgstr "Menu des Rapports"
+
+
+
+msgstr "Compte rendu succinct de cotisation"
+
+
+
+ 
+ 
+msgstr ""
+"Montre un compte rendu succinct de cotisation pour un jour donn&eacute;, y compris les refus "
+"par association."
+
+
+
+msgstr "Rapport de Fin d'ann&eacute;e pour les Cotisations des Membres"
+
+
+
+msgstr "Lettre de contribution de membre pour tous les membres avec les cotisations (pdf de plusieurs pages)"
+
+
+
+msgstr "Rapport sur les groupes et les r&ocirc;les"
+
+
+
+msgstr "Rapport sur les groupes et les r&ocirc;les s&eacute;lectionn&eacute;s (ils peuvent &ecirc;tre  g&eacute;n&eacute;rer en multipage PDF)."
+
+
+
+msgstr "Annuaire des membres"
+
+
+
+msgstr "Annuaire imprimable de tous les membres, group&eacute; par l'assignement de la famille"
+
+
+
+msgstr "Confirmation de la suppression de la personne"
+
+
+
+msgstr "Confirmation de la suppression de la famille"
+
+
+
+ 
+ 
+msgstr ""
+"D&eacute;sol&eacute;e, cette personne est un utilisateur.  Un administrateur doit enlever leur statut "
+"d'utilisateur avant qu'ils puissent &ecirc;tre  supprim&eacute;s de la base de donn&eacute;es."
+
+
+
+msgstr "Retour sur l'aperçu de la personne"
+
+
+
+ 
+ 
+msgstr ""
+"D&eacute;sol&eacute;e, cette personne a toujours des enregistrements de cotisations. Vous devez attribuer &agrave; nouveau "
+"ou supprimer ces cotisations avant que vous puissiez enlever cette personne."
+
+
+
+msgstr "Nombre de Cotisations:"
+
+
+
+msgstr " (cette action NE PEUT PAS &ecirc;tre  annul&eacute;e!)"
+
+
+
+msgstr "Merci de confirmer la suppression de l'enregistrement de cette famille:"
+
+
+
+msgstr "Ceci supprimera &eacute;galement toutes les notes li&eacute;es &agrave; cet enregistrement Famille."
+
+
+
+msgstr " (cette action ne peut pas &ecirc;tre  annul&eacute;e)"
+
+
+
+msgstr "Non, annuler cette suppression</a>"
+
+
+
+msgstr "Liste des Personnes"
+
+
+
+msgstr "Liste des Familles"
+
+
+
+msgstr "Ajouter Nouvelle Personne"
+
+
+
+msgstr "Aperçu page d'Impression de cette Liste"
+
+
+
+msgstr "Ordre de tri:"
+
+
+
+msgstr "Par Nom"
+
+
+
+msgstr "Par Famille"
+
+
+
+msgstr "Par Nouvelle Entr&eacute;es"
+
+
+
+msgstr "Appliquer le Filtre"
+
+
+
+msgstr "Affichage:"
+
+
+
+
+msgstr "Panier"
+
+
+
+msgstr "vCard"
+
+
+
+msgstr "Enregistrement Imprimable"
+
+
+
+msgstr "Cr&eacute;er vCard"
+
+
+
+msgstr "Imprimer Page"
+
+
+
+msgstr "Ajouter Nouvelle Famille"
+
+
+
+msgstr "Nom de Famille"
+
+
+
+msgstr "Derniere Modification"
+
+
+
+msgstr "Confirmation Suppression de l'Utilisateur"
+
+
+
+msgstr "Veuillez confirmer le d&eacute;placement du statut d'utilisateur de:"
+
+
+
+msgstr "Personne"
+
+
+
+msgstr "Gestionnaire Utilisateur"
+
+
+
+msgstr "Personne Autoriser &agrave; Cr&eacute;er des Utilisateurs:"
+
+
+
+msgstr "Utilisateur:"
+
+
+
+msgstr "Ajouter Enregistrements:"
+
+
+
+msgstr "Modifier Enregistrements:"
+
+
+
+msgstr "Effacer Enregistrements:"
+
+
+
+msgstr "Gestion Propri&eacute;t&eacute;s et Classifications:"
+
+
+
+msgstr "Gestion des Groupes et R&ocirc;les:"
+
+
+
+msgstr "Gestion Cotisations et Finances:"
+
+
+
+msgstr "Voir, Ajouter et Éditer des notes:"
+
+
+
+msgstr "Administrateur:"
+
+
+
+msgstr "(Avoir tous les privil&egrave;ges.)"
+
+
+
+msgstr "Style:"
+
+
+
+msgstr "Note:  Les changements entreront en vigueur au prochain red&eacute;marrage."
+
+
+
+msgstr "Liste des Utilisateurs"
+
+
+
+msgstr "Ajouter Nouvel Utilisateur"
+
+
+
+msgstr "Derniere Connexion"
+
+
+
+msgstr "Connexion Totale"
+
+
+
+msgstr "La connexion a &eacute;chou&eacute;e"
+
+
+
+msgstr "Mot de Passe"
+
+
+
+msgstr "Effacer"
+
+
+
+msgstr "Vous devez entrer un mot de passe dans des les champs"
+
+
+
+msgstr "Vous devez entrer le meme mot de passe dans des les deux champs"
+
+
+
+msgstr "Vous devez entrer votre nouveau mot de passe dans les deux champs"
+
+
+
+msgstr "Votre mot de passe est trop &eacute;vident.  Veuillez en choisir un autre."
+
+
+
+msgstr "Votre nouveau mot de passe doit au moins avoir"
+
+
+
+msgstr "caract&egrave;res"
+
+
+
+msgstr "Vous devez r&eacute;ellement changer votre mot de passe"
+
+
+
+msgstr "Votre nouveau mot de passe est trop ressemblant &agrave; l'ancien. Soyez plus cr&eacute;atif!"
+
+
+
+msgstr "Changement du Mot de Passe Utilisateur"
+
+ 
+ 
+ 
+ 
+msgstr ""
+"L'enregistrement de votre compte indique que vous devez changer votre mot de passe avant de "
+"continuer."
+
+ 
+ 
+ 
+ 
+msgstr ""
+"Entrez votre mot de passe actuel, puis votre nouveau mot de passe deux fois.  "
+"Les mots de passe doivent &ecirc;tre  au moins"
+
+
+
+msgstr "caract&egrave;res de long."
+
+
+
+msgstr "Entrez un nouveau mot de passe pour cet utilisateur."
+
+
+
+msgstr "Ancien Mot de Passe:"
+
+
+
+msgstr "Nouveau Mot de Passe:"
+
+
+
+msgstr "Confirmation Nouveau Mot de Passe:"
+
+
+
+msgstr "Éditez Votre Profil"
+
+
+
+msgstr "Largeur de Zone de travail"
+
+
+
+msgstr "Taille Police par D&eacute;faut"
+
+
+
+msgstr "Effacement de l'utilisateur"
+
+
+
+msgstr "Merci de confirmer le mot de passe d'effacement de cet utilisateur:"
+
+
+
+msgstr "Oui, effacer le mot de passe de cet utilisateur"
+
+
+
+msgstr "Non, annuler cette op&eacute;ration"
+
+
+
+msgstr "Vrai / Faux"
+
+
+
+msgstr "Champ Texte (50 caract&egrave;res)"
+
+
+
+msgstr "Champ Texte (100 caract&egrave;res)"
+
+
+
+msgstr "Champ Texte (long)"
+
+
+
+msgstr "Saison"
+
+
+
+msgstr "Nombre"
+
+
+
+msgstr "Personne du groupe"
+
+
+
+msgstr "Monnaie"
+
+
+
+msgstr "Num&eacute;ro de t&eacute;l&eacute;phone"
+
+
+
+msgstr "Liste d&eacute;roulante personnalis&eacute;e"
+
+
+
+msgstr "Les enregistrements s&eacute;lectionn&eacute;s ont bien &eacute;t&eacute; ajout&eacute; au panier."
+
+
+
+msgstr "Les enregistrements s&eacute;lectionn&eacute;s ont bien &eacute;t&eacute; supprim&eacute; du panier."
+
+
+
+msgstr "Votre panier a bien &eacute;t&eacute; vid&eacute;."
+
+
+
+msgstr "&eacute;l&eacute;ment(s) ajout&eacute;(s) au panier."
+
+
+
+msgstr "Impossibilit&eacute; d'ex&eacute;cuter la demande."
+
+
+
+msgstr "1 mois"
+
+
+
+msgstr "mois"
+
+
+
+msgstr "1 an"
+
+
+
+msgstr "ans"
+
+
+
+msgstr "Age inconnu"
+
+
+
+msgstr "Modification de l'ID non valide!"
+
+
+
+msgstr "Choisissez la saison"
+
+
+
+msgstr "Hiver"
+
+
+
+msgstr "Printemps"
+
+
+
+msgstr "Et&eacute;"
+
+
+
+msgstr "Automne"
+
+
+
+msgstr "Erreur: Modification de l'ID non valide!"
+
+
+
+msgstr "Ann&eacute;e Invalide"
+
+
+
+msgstr "Ann&eacute;e Invalide:  les valeurs permises sont comprise entre 1901 et 2155"
+
+
+
+msgstr "Num&eacute;ro invalide"
+
+
+
+msgstr "Nombre trop grand Celui-ci doit &ecirc;tre  compris entre -2147483648 et 2147483647"
+
+
+
+msgstr "Le montant indiqu&eacute; est trop important. Le Maximum est 999999999.99€"
+
+
+
+msgstr "Principal"
+
+
+
+msgstr "D&eacute;connexion"
+
+
+
+msgstr "Changez Mot de Passe"
+
+
+
+msgstr "Administrateur"
+
+
+
+msgstr "Éditez Utilisateurs"
+
+
+
+msgstr "Ajouter Nouvel Utilisateur"
+
+
+
+msgstr "Modifiez Champs Personnalis&eacute;s"
+
+
+
+msgstr "Modifiez les Associations"
+
+
+
+msgstr "Personnes/Familles"
+
+
+
+msgstr "Ajouter Nouvelle Personne"
+
+
+
+msgstr "Voir Toutes les Personnes"
+
+
+
+msgstr "Gestion des Classifications"
+
+
+
+msgstr "Ajouter Nouvelle Famille"
+
+
+
+msgstr "Voir Toutes les Familles"
+
+
+
+msgstr "Gestion des R&ocirc;les Famille"
+
+
+
+msgstr "Finance"
+
+
+
+msgstr "Saisies/Modifications des Cotisations"
+
+
+
+msgstr "Liste des El&eacute;ments du Panier"
+
+
+
+msgstr "Donn&eacute;es/Rapports"
+
+
+
+msgstr "Export Enregistrements CSV"
+
+
+
+msgstr "Menu Requ&ecirc;tes"
+
+
+
+msgstr "Menu Rapports"
+
+ 
+
+
+msgstr "Groupes"
+
+
+
+msgstr "Liste des Groupes"
+
+
+
+msgstr "Modifiez Types Groupe"
+
+
+
+msgstr "Propri&eacute;t&eacute;s Personnes"
+
+
+
+msgstr "Propri&eacute;t&eacute;s Famille"
+
+
+
+msgstr "Propri&eacute;t&eacute;s Groupe"
+
+
+
+msgstr "Type de propri&eacute;t&eacute;s"
+
+
+
+msgstr "Aide"
+
+
+
+msgstr "A propos de InfoCentral"
+
+
+
+msgstr "Personne"
+
+
+
+msgstr "Famille"
+
+
+
+msgstr "Finances"
+
+
+
+msgstr "Rapport"
+
+
+
+msgstr "Administration"
+
+
+
+msgstr "Notes"
+
+
+
+msgstr "Classifications"
+
+
+
+msgstr "Recherche"
+
+
+
+msgstr "El&eacute;ments du Panier:"
+
+
+
+msgstr "Utilisateur Actuel"
+
+
+
+msgstr "ERREUR:  La biblioth&egrave;que FPDF n'a pas &eacute;t&eacute; trouv&eacute;e dans votre chemin d'acc&egrave;s <i>ou</i> &agrave;:"
+
+
+
+msgstr "ERREUR:  La biblioth&egrave;que JPGraph n'a pas &eacute;t&eacute; trouv&eacute;e dans votre chemin d'acc&egrave;s <i>ou</i> &agrave;:"
+
+
+
+msgstr "Annuaire des Membres"
+
+
+
+msgstr "Annuaire"
+
+ 
+ 
+
+
+msgstr "Profession"
+
+ 
+ 
+
+
+msgstr "Cellule"
+
+
+
+msgstr "Mariage"
+
+
+
+msgstr "et"
+
+ 
+
+
+msgstr "Email Travail/Autre"
+
+
+
+msgstr "Liste Enveloppes Cotisation"
+
+
+
+msgstr "Total de vos cotisations, perçues pendant l'ann&eacute;e"
+
+
+
+msgstr "Ci-dessous les d&eacute;tails de vos cotisations:"
+
+
+
+msgstr "Nombre de Reçus"
+
+
+
+msgstr "Annuaire du Groupe"
+
+
+
+msgstr "Sommaire des cotisations pour"
+
+
+
+msgstr "Total par Association pour"
+

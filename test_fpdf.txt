@@ -1,0 +1,93 @@
+<?php
+// Include the function library
+// *  2008 Erwin Pratama for GKJ Bekasi WIl Timur
+
+require "Include/Config.php";
+require "Include/Functions.php";
+require "Include/Header-Print.php";
+
+$iStatus = FilterInput($_GET["Status"]);
+
+require('Include/fpdf/fpdf.php');
+
+class PDF extends FPDF
+{
+$data = array();
+				$query = "SELECT per_FirstName as 'Nama Lengkap', fam_HomePhone as 'Telp Rumah', per_Cellphone as Handphone, a1.lst_OptionName as 'Status Keluarga',
+							fam_Address1 as 'Alamat Lengkap', a2.lst_OptionName as 'Status Warga'
+						FROM person_per
+						LEFT JOIN family_fam ON person_per.per_fam_ID = family_fam.fam_ID
+						LEFT JOIN list_lst as a1 ON a1.lst_OptionID = person_per.per_fmr_ID AND a1.lst_ID = 2
+						LEFT JOIN list_lst as a2 ON a2.lst_OptionID = person_per.per_cls_ID AND a2.lst_ID = 1
+						WHERE per_WorkPhone like '%$iStatus%'
+						ORDER BY family_fam.fam_Name, person_per.per_fmr_ID, person_per.per_BirthYear";
+
+					$data = array();
+					$result = mysql_query($query);
+					while($data[] = mysql_fetch_array($result, MYSQL_ASSOC)) {}
+
+
+
+
+
+
+
+//Load data
+function LoadData($file)
+{
+    //Read file lines
+    $lines=file($file);
+    $data=array();
+    foreach($lines as $line)
+        $data[]=explode(';',chop($line));
+    return $data;
+}
+
+
+//Colored table
+function FancyTable($header,$data)
+{
+    //Colors, line width and bold font
+    $this->SetFillColor(255,0,0);
+    $this->SetTextColor(255);
+    $this->SetDrawColor(128,0,0);
+    $this->SetLineWidth(.3);
+    $this->SetFont('','B');
+    //Header
+    $w=array(40,35,40,45);
+    for($i=0;$i<count($header);$i++)
+        $this->Cell($w[$i],7,$header[$i],1,0,'C',true);
+    $this->Ln();
+    //Color and font restoration
+    $this->SetFillColor(224,235,255);
+    $this->SetTextColor(0);
+    $this->SetFont('');
+    //Data
+    $fill=false;
+    foreach($data as $row)
+    {
+        $this->Cell($w[0],6,$row[0],'LR',0,'L',$fill);
+        $this->Cell($w[1],6,$row[1],'LR',0,'L',$fill);
+        $this->Cell($w[2],6,number_format($row[2]),'LR',0,'R',$fill);
+        $this->Cell($w[3],6,number_format($row[3]),'LR',0,'R',$fill);
+        $this->Ln();
+        $fill=!$fill;
+    }
+    $this->Cell(array_sum($w),0,'','T');
+}
+}
+
+$pdf=new PDF();
+//Column titles
+$header=array('Country','Capital','Area (sq km)','Pop. (thousands)');
+//Data loading
+$data=$pdf->LoadData('countries.txt');
+$pdf->SetFont('Arial','',14);
+$pdf->AddPage();
+$pdf->BasicTable($header,$data);
+$pdf->AddPage();
+$pdf->ImprovedTable($header,$data);
+$pdf->AddPage();
+$pdf->FancyTable($header,$data);
+$pdf->Output();
+?>

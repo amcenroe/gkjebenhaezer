@@ -1,0 +1,2993 @@
+# InfoCentral Indonesian translation
+# Copyright (C) 2008
+# This file is distributed under the same license (GPL) as the InfoCentral package.
+# Erwin pratama <e_pratama@yahoo.com>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: new2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-09-27 18:32-0400\n"
+"PO-Revision-Date: 2003-10-31 15:14GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.8\n"
+
+#: BackupDatabase.php:50
+msgid "Password values entered were not the same! Please re-type them."
+msgstr "Nilai dari password tidak sama! Masukkan lagi."
+
+#: BackupDatabase.php:55 
+msgid "You must enter a password of at least 8 characters to encrypt this backup." 
+msgstr "Anda harus memasukkan sandi minimal 8 karakter untuk mengenkripsi cadangan."
+
+#: BackupDatabase.php:115 Include/Header.php:171 Include/Header.php:525 
+msgid "Backup Database" 
+msgstr "Backup Database"
+
+#: BackupDatabase.php:120 
+msgid "This tool will assist you in manually backing up the InfoCentral database." 
+msgstr "Alat ini akan membantu Anda mendukung database InfoCentral secara manual."
+
+#: BackupDatabase.php:122 
+msgid "TIPS:" 
+msgstr "trik"
+
+#: BackupDatabase.php:124 
+msgid "" 
+You should make a manual backup at least once a week unless you already have  
+a regular backup procedule for your systems. 
+msgstr ""
+Anda harus tangan perlindungan setidaknya seminggu sekali, kecuali anda sudah
+biasa prosedur cadangan untuk sistem anda.
+
+#: BackupDatabase.php:125 
+msgid "" 
+After you download the backup file, you should make two copies. Put one of  
+them in a fire-proof safe on-site and the other in a safe location off-site. 
+msgstr "Setelah Anda men-download file cadangan, Anda harus membuat dua salinan."
+Letakkan di satu situs yang aman dan yang lainnya di lokasi yang aman di luar situs ini.
+
+#: BackupDatabase.php:126 
+msgid "" 
+If you are concerned about confidentiality of data stored in the InfoCentral  
+database, you should encrypt the backup data if it will be stored somewhere  
+potentially accessible to others 
+msgstr ""
+Jika Anda khawatir dengan kerahasiaan data yang disimpan dalam database InfoCentral
+Anda harus mengenkripsi data cadangan bila suatu potensial dapat diakses orang lain
+
+#: BackupDatabase.php:127 
+msgid "" 
+For added backup security, you can e-mail the backup to yourself at an e- 
+mail account hosted off-site or to a trusted friend.  Be sure to use  
+encryption if you do this, however. 
+msgstr ""msgstr ""
+Pour ajouter une sauvegarde de s&eacute;curit&eacute;, vous pouvez vous envoyer un Email ou l'envoyer &agrave; un ami de confiance. Untuk menambah cadangan keselamatan, Anda dapat mengirim e-mail atau mengirimkannya ke teman yang terpercaya.
+Cependant, soyez s&ucirc;r d'employer l'encryptage si vous faites ceci.Namun, jangan lupa untuk menggunakan enkripsi jika Anda melakukan hal ini.
+
+#: BackupDatabase.php:131 
+msgid "Select archive type:" 
+msgstr "S&eacute;lectionnez le type de sauvegarde:"msgstr "Pilih jenis cadangan:"
+
+#: BackupDatabase.php:132 
+msgid "GZip" 
+msgstr "Gzip"msgstr "gzip"
+
+#: BackupDatabase.php:133 DirectoryReports.php:160 
+msgid "Zip" 
+msgstr "Zip"
+
+#: BackupDatabase.php:134 
+msgid "Uncompressed" 
+msgstr "Non compress&eacute;"msgstr "dikompresi"
+
+#: BackupDatabase.php:137 
+msgid "Encrypt backup file with a password?" 
+msgstr "Enkripsikan backup file dengan sandi?"
+
+#: BackupDatabase.php:139 
+msgid "Password:" 
+msgstr "Password:"
+
+#: BackupDatabase.php:140 
+msgid "Re-type Password:" 
+msgstr "Ulangi Password:
+
+#: BackupDatabase.php:143 
+msgid "Generate and Download Backup" 
+msgstr "Buat atau Download Cadangan"
+
+#: BackupDatabase.php:144 
+msgid "Delete Temp Files" 
+msgstr "Hapus File Sementara"
+
+#: CSVExport.php:45 
+msgid "CSV Export" 
+msgstr "Ekspor ke CSV"
+
+#: CSVExport.php:55 PersonEditor.php:418 
+msgid "Standard Fields" 
+msgstr "Champs Standarisasi
+
+#: CSVExport.php:59 PersonEditor.php:437 
+msgid "Last Name:" 
+msgstr ""
+
+#: CSVExport.php:60 
+msgid "Required" 
+msgstr "Diperlukan"
+
+#: CSVExport.php:64 PersonEditor.php:421 
+msgid "Title:" 
+msgstr "Judul"
+
+#: CSVExport.php:69 PersonEditor.php:427 
+msgid "First Name:" 
+msgstr "Nama:"
+
+#: CSVExport.php:74 PersonEditor.php:432 
+msgid "Middle Name:" 
+msgstr "Nama Tengah"
+
+#: CSVExport.php:79 PersonEditor.php:442 
+msgid "Suffix:" 
+msgstr "Sufiks"
+
+#: CSVExport.php:84 FamilyEditor.php:289 PersonEditor.php:534 
+msgid "Address1:" 
+msgstr "Address1"
+
+#: CSVExport.php:89 FamilyEditor.php:294 PersonEditor.php:539 
+msgid "Address2:" 
+msgstr "Address2"
+
+#: CSVExport.php:94 FamilyEditor.php:299 PersonEditor.php:544 
+msgid "City:" 
+msgstr "Kota"
+
+#: CSVExport.php:99 FamilyEditor.php:304 PersonEditor.php:549 
+msgid "State:" 
+msgstr "Negara"
+
+#: CSVExport.php:104 FamilyEditor.php:314 PersonEditor.php:559 
+msgid "Zip:" 
+msgstr "Kode Pos"
+
+#: CSVExport.php:109 FamilyEditor.php:319 PersonEditor.php:564 
+msgid "Country:" 
+msgstr "Negara"
+
+#: CSVExport.php:114 FamilyEditor.php:330 FamilyView.php:211 
+#: PersonEditor.php:578 PersonEditor.php:580 PersonView.php:336 
+#: PrintView.php:152 
+msgid "Home Phone:" 
+msgstr "Telepon Staff:"
+
+#: CSVExport.php:119 FamilyEditor.php:338 FamilyView.php:215 
+#: PersonEditor.php:593 PersonEditor.php:595 PersonView.php:340 
+#: PrintView.php:157 
+msgid "Work Phone:" 
+msgstr "Telepon Profesional"
+
+#: CSVExport.php:124 FamilyEditor.php:346 FamilyView.php:219 
+#: PersonEditor.php:608 PersonEditor.php:610 PersonView.php:344 
+#: PrintView.php:162 
+msgid "Mobile Phone:" 
+msgstr "Portable"
+
+#: CSVExport.php:129 FamilyEditor.php:354 FamilyView.php:223 
+#: PersonEditor.php:623 PersonEditor.php:625 PersonView.php:348 
+#: PrintView.php:236 
+msgid "Email:" 
+msgstr "Email:"
+
+#: CSVExport.php:134 PersonView.php:352 
+msgid "Work/Other Email:" 
+msgstr "Email Kerja / Lain-lain:"
+
+#: CSVExport.php:139 
+msgid "Envelope Number:" 
+msgstr "nilai Envelope"
+
+#: CSVExport.php:144 CSVExport.php:262 PersonEditor.php:680 PersonView.php:307 
+#: PrintView.php:246 
+msgid "Membership Date:" 
+msgstr "Tanggal Accession"
+
+#: CSVExport.php:149 
+msgid "* Birth / Anniversary Date:" 
+msgstr "* Tanggal Lahir / Birthday"
+
+#: CSVExport.php:154 
+msgid "* Age / Years Married:" 
+msgstr "* Waktu / tahun dari Pernikahan"
+
+#: CSVExport.php:159 CSVExport.php:219 PersonEditor.php:508 PrintView.php:216 
+msgid "Family Role:" 
+msgstr "Peranan Keluarga"
+
+#: CSVExport.php:164 
+msgid "* Depends whether using person or family output method" 
+msgstr "* Depends on the output metode dipilih oleh pengguna"
+
+#: CSVExport.php:172 PersonEditor.php:712 Include/Header.php:396 
+#: Include/Header.php:654 
+msgid "Custom Fields" 
+msgstr "Kolom Kustom"
+
+#: CSVExport.php:189 
+msgid "Filters" 
+msgstr "Filter"
+
+#: CSVExport.php:193 
+msgid "Records to export:" 
+msgstr "Ekspor"
+
+#: CSVExport.php:196 
+msgid "Based on filters below.." 
+msgstr "Berdasarkan filter di bawah ini .."
+
+#: CSVExport.php:197 
+msgid "People in Cart (filters ignored)" 
+msgstr "Tidak seorang pun di keranjang (filter diabaikan)"
+
+#: CSVExport.php:202 PersonEditor.php:685 PersonView.php:311 PrintView.php:251 
+msgid "Classification:" 
+msgstr "Klasifikasi"
+
+#: CSVExport.php:204 CSVExport.php:221 CSVExport.php:249 
+#: DirectoryReports.php:55 
+msgid "Use Ctrl Key to select multiple" 
+msgstr "Gunakan tombol Ctrl untuk memilih beberapa"
+
+#: CSVExport.php:236 PersonEditor.php:447 PersonView.php:283 PrintView.php:188 
+msgid "Gender:" 
+msgstr "Sex"
+
+#: CSVExport.php:239 
+msgid "Don't Filter" 
+msgstr "Tidak Saring"
+
+#: CSVExport.php:240 FamilyEditor.php:430 FamilyView.php:436 
+#: PersonEditor.php:451 PersonView.php:289 PrintView.php:195 PrintView.php:304 
+#: SelectList.php:330 
+msgid "Male" 
+msgstr "Pria"
+
+#: CSVExport.php:241 FamilyEditor.php:431 FamilyView.php:436 
+#: PersonEditor.php:452 PersonView.php:292 PrintView.php:198 PrintView.php:304 
+#: SelectList.php:330 
+msgid "Female" 
+msgstr "Perempuan"
+
+#: CSVExport.php:247 
+msgid "Group Membership:" 
+msgstr "Grup Keanggotaan"
+
+#: CSVExport.php:265 CSVExport.php:279 CSVExport.php:303 CSVExport.php:315 
+msgid "From:" 
+msgstr ""
+
+#: CSVExport.php:267 CSVExport.php:288 CSVExport.php:305 CSVExport.php:317 
+msgid "To:" 
+msgstr "A"
+
+#: CSVExport.php:269 CSVExport.php:295 CSVExport.php:307 CSVExport.php:319 
+#: FamilyEditor.php:364 PersonEditor.php:681 Include/Functions.php:760 
+msgid "[format: YYYY-MM-DD]" 
+msgstr "[format: YYYY-MM-DD]
+
+#: CSVExport.php:274 
+msgid "Birthday Date:" 
+msgstr "Tanggal Lahir:
+
+#: CSVExport.php:300 
+msgid "Anniversary Date:" 
+msgstr "Ulang Tahun"
+
+#: CSVExport.php:312 
+msgid "Date Entered:" 
+msgstr "Tanggal Masuk"
+
+#: CSVExport.php:324 
+msgid "Output Method:" 
+msgstr "Ekspor Metode"
+
+#: CSVExport.php:327 
+msgid "CSV Individual Records" 
+msgstr "Rekaman individu CSV"
+
+#: CSVExport.php:328 
+msgid "CSV Combine Families" 
+msgstr "Data Keluarga CVS"
+
+#: CSVExport.php:329 
+msgid "Add Individuals to Cart" 
+msgstr "Tambahkan ke Keranjang individu"
+
+#: CSVExport.php:334 
+msgid "Skip records with incomplete mail address" 
+msgstr "Abaikan record yang memiliki alamat email tidak lengkap"
+
+#: CSVExport.php:337 
+msgid "Skip records with no envelope number" 
+msgstr "Abaikan record yang tidak memiliki nilai amplop"
+
+#: CSVExport.php:338 
+msgid "(Individual records only)" 
+msgstr "(pendaftaran hanya individu)"
+
+#: CSVExport.php:346 
+msgid "Create File" 
+msgstr "File dibuat"
+
+#: CartToGroup.php:52 
+msgid "Add Cart to Group" 
+msgstr "Tambahkan ke Keranjang Group
+
+#: CartToGroup.php:109 GroupReports.php:82 
+msgid "Invalid Group or No Roles Available!" 
+msgstr "Kelompok tidak valid atau tidak ada peran tersedia!"
+
+#: CartToGroup.php:116 
+msgid "Select the group to which you would like to add your cart:" 
+msgstr "Pilih grup yang ingin Anda tambahkan ke keranjang:
+
+#: CartToGroup.php:120 GroupReports.php:95 
+msgid "Select Group:" 
+msgstr "Pilih grup"
+
+#: CartToGroup.php:124 DonationEditor.php:409 DonationEditor.php:511 
+#: GroupReports.php:99 GroupReports.php:178 PersonEditor.php:466 
+msgid "None" 
+msgstr "Tidak"
+
+#: CartToGroup.php:134 GroupReports.php:109 
+msgid "Select Role:" 
+msgstr "Pilih Peran"
+
+#: CartToGroup.php:135 GroupReports.php:110 RPCdummy.php:96 
+msgid "No Group Selected" 
+msgstr "Tidak ada grup yang dipilih"
+
+#: CartToGroup.php:140 
+msgid "Add to Group" 
+msgstr "Tambahkan ke grup"
+
+#: CartToGroup.php:141 
+msgid "OR" 
+msgstr "ATAU"
+
+#: CartToGroup.php:142 
+msgid "Create a New Group" 
+msgstr "Buat grup baru"
+
+#: CartToGroup.php:149 
+msgid "Your cart is empty!" 
+msgstr "Anda keranjang kosong!"
+
+#: CartView.php:23 
+msgid "View Your Cart" 
+msgstr "Lihat keranjang"
+
+#: CartView.php:27 DonationMove.php:75 
+msgid "You have no items in your cart." 
+msgstr "Anda tidak memiliki item di keranjang."
+
+#: CartView.php:33 
+msgid "There are" 
+msgstr "Anda"
+
+#: CartView.php:33 
+msgid "item(s) in your cart." 
+msgstr "elemen (s) in your basket
+
+#: CartView.php:36 DonationFundEditor.php:196 DonationView.php:85 
+#: FamilyView.php:254 FamilyView.php:374 GroupList.php:44 
+#: GroupMemberList.php:178 GroupPropsFormEditor.php:317 GroupView.php:159 
+#: GroupView.php:197 PersonCustomFieldsEditor.php:298 PersonView.php:388 
+#: PrintGroup.php:49 PrintMember.php:88 PrintView.php:277 PrintView.php:412 
+#: PropertyList.php:62 PropertyTypeList.php:38 SelectList.php:259 
+#: UserList.php:44 
+msgid "Name" 
+msgstr ""
+
+#: CartView.php:37 
+msgid "Address?" 
+msgstr "Alamat?"
+
+#: CartView.php:38 
+msgid "Email?" 
+msgstr "Email?"
+
+#: CartView.php:39 CartView.php:84 FamilyView.php:260 FamilyView.php:309 
+#: GroupView.php:204 GroupView.php:252 PersonView.php:394 PersonView.php:441 
+#: PersonView.php:514 PersonView.php:540 
+msgid "Remove" 
+msgstr "Hapus"
+
+#: CartView.php:53 CartView.php:75 DonationFundEditor.php:225 
+#: Include/Functions.php:672 
+msgid "Yes" 
+msgstr "Ya"
+
+#: CartView.php:68 CartView.php:77 DonationFundEditor.php:226 
+#: Include/Functions.php:674 
+msgid "No" 
+msgstr "Tidak"
+
+#: CartView.php:95 
+msgid "Cart Functions" 
+msgstr "Fungsi Basket"
+
+#: CartView.php:97 Include/Header.php:259 Include/Header.php:585 
+msgid "Empty Cart" 
+msgstr "Kosongkan Keranjang"
+
+#: CartView.php:100 Include/Header.php:265 Include/Header.php:589 
+msgid "Empty Cart to Group" 
+msgstr "Kosongkan Keranjang Group
+
+#: CartView.php:103 
+msgid "Send E-Mail to Entire Cart" 
+msgstr "Kirim e-mail ke Keranjang konten"
+
+#: CartView.php:111 CartView.php:144 
+msgid "Generate Labels" 
+msgstr "Membuat Label"
+
+#: CartView.php:113 
+msgid "All Individuals" 
+msgstr "semua orang"
+
+#: CartView.php:114 
+msgid "Grouped by Family" 
+msgstr "Dikelompokkan oleh Keluarga"
+
+#: CartView.php:118 
+msgid "Label Type:" 
+msgstr "Ketik label"
+
+#: CartView.php:132 
+msgid "Start Row:" 
+msgstr "Starting Line"
+
+#: CartView.php:136 
+msgid "Start Column:" 
+msgstr "kolom Berangkat"
+
+#: CartView.php:140 
+msgid "Ignore Incomplete<br>Addresses:" 
+msgstr "Abaikan <br> Addresses Incomplete s:"
+
+#: Default.php:56 UserPasswordChange.php:85 
+msgid "Invalid password" 
+msgstr "Sandi Tidak Valid"
+
+#: Default.php:185 
+msgid "InfoCentral: Login" 
+msgstr "InfoCentral: Username"
+
+#: Default.php:192 
+msgid "Please Login" 
+msgstr "Silakan login"
+
+#: Default.php:197 
+msgid "Select your Username:" 
+msgstr "Pilih nama:"
+
+#: Default.php:200 
+msgid "Choose One" 
+msgstr "Pilih nama pengguna"
+
+#: Default.php:225 
+msgid "Enter your password:" 
+msgstr "Masukkan password:
+
+#: Default.php:232 
+msgid "Login" 
+msgstr "Identified"
+
+#: DirectoryReports.php:30 
+msgid "Directory reports" 
+msgstr "Daftar Laporan"
+
+#: DirectoryReports.php:53 
+msgid "Select classifications to include" 
+msgstr "Pilih untuk memasukkan klasifikasi"
+
+#: DirectoryReports.php:70 
+msgid "Which role is the head of household?" 
+msgstr "Apa yang dimaksud dengan peran kepala rumah tangga?"
+
+#: DirectoryReports.php:85 
+msgid "Which role is the spouse?" 
+msgstr "Apa yang dimaksud dengan peran serta istri?"
+
+#: DirectoryReports.php:101 
+msgid "Which role is a child?" 
+msgstr "Apa Peran anak?"
+
+#: DirectoryReports.php:117 
+msgid "Information to Include:" 
+msgstr "Informasi untuk Termasuk:
+
+#: DirectoryReports.php:119 DirectoryReports.php:148 GroupMemberList.php:180 
+#: GroupReports.php:157 PrintGroup.php:50 PrintMember.php:89 
+#: SelectList.php:507 
+msgid "Address" 
+msgstr "Alamat"
+
+#: DirectoryReports.php:120 
+msgid "Wedding Date" 
+msgstr "Wedding Date"
+
+#: DirectoryReports.php:121 
+msgid "Birthday" 
+msgstr "Ulang Tahun"
+
+#: DirectoryReports.php:123 
+msgid "Family Home Phone" 
+msgstr "Telepon Orang"
+
+#: DirectoryReports.php:124
+msgid "Family Work Phone"
+msgstr "Telepon Profesional"
+
+#: DirectoryReports.php:125
+msgid "Family Cell Phone"
+msgstr "Mobile Phone Orang"
+
+#: DirectoryReports.php:126
+msgid "Family Email"
+msgstr "Email staf
+
+#: DirectoryReports.php:128
+msgid "Personal Home Phone"
+msgstr "Telepon Orang"
+
+#: DirectoryReports.php:129
+msgid "Personal Work Phone"
+msgstr "Telepon staf bekerja"
+
+#: DirectoryReports.php:130
+msgid "Personal Cell Phone"
+msgstr "Mobile Phone Orang"
+
+#: DirectoryReports.php:131
+msgid "Personal Email"
+msgstr "Email Teman"
+
+#: DirectoryReports.php:132
+msgid "Personal Work/Other Email"
+msgstr "Email Staff Kerja / Lain-lain:"
+
+#: DirectoryReports.php:136
+msgid "Title page:"
+msgstr "Judul halaman"
+
+#: DirectoryReports.php:140
+msgid "Use Title Page"
+msgstr "Judul Halaman"
+
+#: DirectoryReports.php:144
+msgid "Church Name"
+msgstr "Nama Perusahaan"
+
+#: DirectoryReports.php:152 GroupMemberList.php:181 PrintGroup.php:51
+#: PrintMember.php:90 SelectList.php:508
+msgid "City"
+msgstr "Kota"
+
+#: DirectoryReports.php:156 GroupMemberList.php:182 PrintGroup.php:52
+#: PrintMember.php:91 SelectList.php:509
+msgid "State"
+msgstr "Negara"
+
+#: DirectoryReports.php:164 Reports/DirectoryReport.php:207
+#: Reports/DirectoryReport.php:258 Reports/DirectoryReport.php:317
+#: Reports/DirectoryReport.php:485 Reports/GroupReport.php:259
+msgid "Phone"
+msgstr "Telepon"
+
+#: DirectoryReports.php:168
+msgid "Disclaimer"
+msgstr "Peringatan"
+
+#: DirectoryReports.php:181
+msgid "Create Directory"
+msgstr "Buat Folder"
+
+#: DirectoryReports.php:182 DonationMove.php:66 FamilyEditor.php:268
+#: FamilyEditor.php:492 GroupPropsEditor.php:146 GroupPropsEditor.php:185
+#: GroupReports.php:128 GroupReports.php:187 MemberRoleChange.php:122
+#: MemberRoleChange.php:124 NoteEditor.php:172 PersonEditor.php:400
+#: PersonEditor.php:744 PropertyEditor.php:172 PropertyTypeEditor.php:107
+#: UserEditor.php:248
+msgid "Cancel" 
+msgstr "Batal"
+
+#: DonationDelete.php:56
+msgid "Donation Delete Confirmation"
+msgstr "Menghapus Data Dikonfirmasi"
+
+#: DonationDelete.php:65 SelectDelete.php:174
+msgid "Please confirm deletion of:"
+msgstr "Silakan konfirmasi penghapusan dari:"
+
+#: DonationDelete.php:70 DonationEditor.php:398
+msgid "Receipt Number:"
+msgstr "Jumlah yang diterima:
+
+#: DonationDelete.php:71
+msgid "Donor Name:"
+msgstr "Nama Kontributor:
+
+#: DonationDelete.php:72
+msgid "Amount:"
+msgstr "Jumlah"
+
+#: DonationDelete.php:73 DonationReports.php:141 DonationViewReceipt.php:108
+msgid "Date:"
+msgstr "Tanggal"
+
+#: DonationDelete.php:74 DonationEditor.php:461
+msgid "Payment Type:"
+msgstr "Pembayaran"
+
+#: DonationDelete.php:75 DonationEditor.php:470
+msgid "Check Number:"
+msgstr "Periksa nomor:
+
+#: DonationDelete.php:80 GroupDelete.php:101 NoteDelete.php:81 
+#: PropertyDelete.php:67 PropertyTypeDelete.php:70 SelectDelete.php:177 
+#: SelectDelete.php:186 UserDelete.php:64
+msgid "Yes, delete this record"
+msgstr "Ya, menghapus data ini"
+
+#: DonationDelete.php:80
+msgid "(This action CANNOT be undone!)"
+msgstr "(Tindakan ini tidak dapat dibatalkan!)"
+
+#: DonationDelete.php:82 GroupDelete.php:104 NoteDelete.php:85 
+#: PropertyDelete.php:69 PropertyTypeDelete.php:72 SelectDelete.php:178 
+#: UserDelete.php:66
+msgid "No, cancel this deletion"
+msgstr "Tidak, membatalkan penghapusan"
+
+#: DonationEditor.php:30
+msgid "Add/Edit a Donation"
+msgstr "Tambah / Ubah Biaya"
+
+#: DonationEditor.php:114
+msgid "You must enter a valid check number."
+msgstr "Anda harus menulis angka yang benar."
+
+#: DonationEditor.php:119
+msgid "You must select the payment type."
+msgstr "Anda harus memilih pembayaran."
+
+#: DonationEditor.php:126 Include/Functions.php:898
+msgid "Not a valid date"
+msgstr "Format tanggal tidak valid"
+
+#: DonationEditor.php:137
+msgid "Invalid envelope number"
+msgstr "Nilai tidak valid amplop"
+
+#: DonationEditor.php:146
+msgid "Envelope number must always be<br>specified in batch entry mode"
+msgstr "Jumlah amplop harus <br> ditunjukkan dalam modus batch input"
+
+#: DonationEditor.php:359 DonationEditor.php:478 RPCdummy.php:53
+msgid "Address Info:"
+msgstr "Informasi Alamat:"
+
+#: DonationEditor.php:395
+msgid "Batch Entry Mode"
+msgstr "Masukkan Batch mode"
+
+#: DonationEditor.php:400
+msgid "Donation Date:"
+msgstr "Tanggal kontribusi:
+
+#: DonationEditor.php:407
+msgid "Default fund:"
+msgstr Asosiasi Default: "
+
+#: DonationEditor.php:424
+msgid "Default Type:"
+msgstr "default"
+
+#: DonationEditor.php:426 DonationEditor.php:463 DonationView.php:102
+msgid "cash"
+msgstr "cair"
+
+#: DonationEditor.php:427 DonationEditor.php:464 DonationView.php:103
+msgid "check"
+msgstr "periksa"
+
+#: DonationEditor.php:428 DonationEditor.php:465 DonationView.php:104
+msgid "credit"
+msgstr "kartu kredit"
+
+#: DonationEditor.php:445
+msgid "Clear"
+msgstr "Hapus"
+
+#: DonationEditor.php:449 DonationFundEditor.php:210
+msgid "delete"
+msgstr "Hapus"
+
+#: DonationEditor.php:456
+msgid "Envelope:"
+msgstr "Amplop"
+
+#: DonationEditor.php:497
+msgid "You must enter at least one valid fund / amount row."
+msgstr "Anda harus memasukkan setidaknya satu asosiasi / jumlah per baris."
+
+#: DonationEditor.php:501 DonationReports.php:50 DonationViewReceipt.php:120
+msgid "Fund"
+msgstr "Asosiasi"
+
+#: DonationEditor.php:502 DonationReports.php:114 DonationView.php:86 
+#: DonationViewReceipt.php:120 Reports/DonationReportYearly.php:284
+msgid "Amount"
+msgstr "Jumlah"
+
+#: DonationEditor.php:523
+msgid "inactive"
+msgstr "tidak aktif"
+
+#: DonationEditor.php:536 DonationViewReceipt.php:111
+msgid "Total:"
+msgstr "Total:"
+
+#: DonationEditor.php:545
+msgid "Enter Donation"
+msgstr "Masukkan kontribusi"
+
+#: DonationEditor.php:547 DonationFundEditor.php:167 
+#: DonationFundEditor.php:189 DonationFundEditor.php:240 GroupEditor.php:275 
+#: GroupPropsFormEditor.php:288 GroupPropsFormEditor.php:309 
+#: GroupPropsFormEditor.php:396 OptionManager.php:282 OptionManager.php:284 
+#: PersonCustomFieldsEditor.php:269 PersonCustomFieldsEditor.php:290 
+#: PersonCustomFieldsEditor.php:377
+msgid "Exit"
+msgstr "Keluar"
+
+#: DonationEnvelopes.php:28 Include/Header.php:242 Include/Header.php:571
+msgid "Donation Envelope Manager"
+msgstr "Manajemen envelopes untuk kontribusi"
+
+#: DonationEnvelopes.php:99
+msgid "Assigned Envelopes:"
+msgstr "envelopes Ditugaskan"
+
+#: DonationEnvelopes.php:103
+msgid "Active Envelopes this Year:"
+msgstr "envelopes Ditugaskan Tahun:"
+
+#: DonationEnvelopes.php:107
+msgid "Highest Envelope Number:"
+msgstr "Nilai tertinggi Enveloppe"
+
+#: DonationEnvelopes.php:119 
+msgid "" 
+<b>Warning :</b> This envelope re-assignment feature will change  
+<i>everyone's</i> envelope number.<br> 
+msgstr ""
+<b> Peringatan: </ b> Ini artinya mengubah kembali amplop
+<i> setiap </ i> nilai amplop. <br>
+
+#: DonationEnvelopes.php:120 
+msgid "" 
+You should only use this if you will be handing out new envelopes. (such as  
+with the beginning 
+msgstr ""msgstr ""
+Anda sebaiknya hanya menggunakan ini jika Anda mendistribusikan baru
+envelopes (seperti di awal
+
+#: DonationEnvelopes.php:121 
+msgid "" 
+of a new fiscal year)  This feature will re-assign envelope numbers  
+alphabetically by Lastname / 
+msgstr ""msgstr ""
+baru tahun fiskal) Ini berarti penghargaan baru envelopes
+alfabet berdasarkan nama /
+
+#: DonationEnvelopes.php:122
+msgid "Firstname <i>only</i> to those who <i>already</i> have an envelope assigned."
+msgstr "Pertama <i> hanya </ i> untuk orang-orang yang telah <i> </ i> amplop yang ditugaskan."
+
+#: DonationEnvelopes.php:124
+msgid "Yes, re-assign envelopes (This action CANNOT be undone!)"
+msgstr "Ya, baru memberikan lampiran (Tindakan ini tidak dapat dibatalkan!)"
+
+#: DonationEnvelopes.php:125
+msgid "No, cancel this operation."
+msgstr "Tidak, membatalkan operasi ini."
+
+#: DonationEnvelopes.php:135
+msgid "Display a list of all envelope assignments"
+msgstr "Tampilkan daftar semua envelopes ditugaskan"
+
+#: DonationEnvelopes.php:136
+msgid "Auto-assign envelopes to all persons in the cart without envelopes"
+msgstr "Ditugaskan envelopes secara otomatis ke semua orang di keranjang adalah envelopes"
+
+#: DonationEnvelopes.php:137
+msgid "Re-assign all existing envelopes by assignees' names in alphabetical order"
+msgstr "Atur semua envelopes baru yang ada nama-nama yang ditugaskan di urutan abjad"
+
+#: DonationFundEditor.php:41
+msgid "Cannot delete this fund.  It is being used by "
+msgstr "Tidak dapat menghapus asosiasi. Hal ini digunakan oleh"
+
+#: DonationFundEditor.php:41
+msgid " donations!"
+msgstr "kontribusi"
+
+#: DonationFundEditor.php:50
+msgid "Donation Fund Editor"
+msgstr "Manajer Contributions oleh Asosiasi"
+
+#: DonationFundEditor.php:152
+msgid "Are you sure you want to delete this fund?"
+msgstr "Apakah Anda yakin ingin menghapus asosiasi ini?"
+
+#: DonationFundEditor.php:166
+msgid "No funds have been added yet"
+msgstr "Asosiasi telah ditambahkan"
+
+#: DonationFundEditor.php:175 
+msgid "" 
+Warning: Field changes will be lost if you do not 'Save Changes' before  
+using a delete or 'add new' button! 
+msgstr ""
+Peringatan: bidang dimodifikasi akan hilang jika anda 'tidak Simpan Perubahan
+sebelum menggunakan tombol hapus atau menambahkan
+
+#: DonationFundEditor.php:180 GroupPropsFormEditor.php:301 
+#: OptionManager.php:274 PersonCustomFieldsEditor.php:282 PersonEditor.php:411 
+msgid "" 
+Invalid fields or selections. Changes not saved! Please correct and try  
+again! 
+msgstr ""
+Champs atau pilihan tidak valid. Perubahan tidak disimpan! Harap benar dan coba
+encore!
+
+#: DonationFundEditor.php:187 DonationFundEditor.php:238 
+#: GroupPropsFormEditor.php:307 GroupPropsFormEditor.php:394 
+#: OptionManager.php:278 PersonCustomFieldsEditor.php:288 
+#: PersonCustomFieldsEditor.php:375 
+msgid "Save Changes" 
+msgstr "Sauver les Changements"msgstr "Simpan Perubahan"
+
+#: DonationFundEditor.php:197 GroupPropsFormEditor.php:318 GroupView.php:160 
+msgid "Description" 
+msgstr "D&eacute;signation"msgstr "Keterangan"
+
+#: DonationFundEditor.php:198 
+msgid "Active" 
+msgstr "aktif"
+
+#: DonationFundEditor.php:217 DonationFundEditor.php:258 GroupEditor.php:221 
+#: GroupPropsFormEditor.php:346 GroupPropsFormEditor.php:428 
+#: OptionManager.php:329 PersonCustomFieldsEditor.php:328
+msgid "You must enter a name."
+msgstr "Anda harus memasukkan nama."
+
+#: DonationFundEditor.php:256 GroupEditor.php:219 GroupPropsFormEditor.php:425 
+#: OptionManager.php:344 PersonCustomFieldsEditor.php:407 
+#: PropertyEditor.php:152 PropertyTypeEditor.php:98
+msgid "Name:"
+msgstr ""
+
+#: DonationFundEditor.php:262 GroupEditor.php:226 GroupPropsFormEditor.php:434 
+#: PropertyTypeEditor.php:102
+msgid "Description:"
+msgstr "Keterangan"
+
+#: DonationFundEditor.php:267
+msgid "Add New Fund"
+msgstr "Tambah Baru Asosiasi
+
+#: DonationMove.php:30
+msgid "Move Donations"
+msgstr "Pindahkan Dues"
+
+#: DonationMove.php:46 
+msgid "" 
+This maintenance feature lets you move all of a person's donation records to  
+another member. 
+msgstr ""
+Pemeliharaan ini memungkinkan Anda untuk memindahkan semua catatan
+sumbangan dari satu orang ke negara lain.
+
+#: DonationMove.php:52
+msgid "Move From:"
+msgstr "Pindah"
+
+#: DonationMove.php:61
+msgid "Move To:"
+msgstr "Pindahkan"
+
+#: DonationMove.php:62
+msgid "Please confirm this move.."
+msgstr "Silakan konfirmasi ini bergerak .."
+
+#: DonationMove.php:65
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#: DonationMove.php:73
+msgid "To select a recipient, they must first be added to the cart."
+msgstr "Untuk memilih penerima, Anda harus terlebih dahulu menambahkan ke keranjang."
+
+#: DonationMove.php:91
+msgid "Move"
+msgstr "Pindahkan"
+
+#: DonationReports.php:27
+msgid "Donation report"
+msgstr "Reporter iuran"
+
+#: DonationReports.php:33
+msgid "for"
+msgstr "untuk"
+
+#: DonationReports.php:51
+msgid "Total"
+msgstr "Total"
+
+#: DonationReports.php:61
+msgid "Total Donations:"
+msgstr "Total Kontribusi"
+
+#: DonationReports.php:112 SelectList.php:506
+msgid "First Name"
+msgstr "Nama"
+
+#: DonationReports.php:113
+msgid "Last Name"
+msgstr ""
+
+#: DonationReports.php:115
+msgid "Receipt No."
+msgstr "Tidak Diterima"
+
+#: DonationReports.php:153
+msgid "Choose date to calculate total in each fund for."
+msgstr "Pilih tanggal untuk menghitung total untuk setiap asosiasi"
+
+#: DonationReports.php:158 QueryView.php:392
+msgid "Execute Query"
+msgstr "Run Query"
+
+#: DonationView.php:29 PersonView.php:145 SelectDelete.php:168
+msgid "View Donations"
+msgstr "Lihat Contributions"
+
+#: DonationView.php:64
+msgid "Back to Person Record"
+msgstr "Kembali ke formulir Person"
+
+#: DonationView.php:67
+msgid "View"
+msgstr "Lihat"
+
+#: DonationView.php:67
+msgid "exemption letter"
+msgstr "surat pembebasan"
+
+#: DonationView.php:70
+msgid "View Details"
+msgstr "Lihat Detail"
+
+#: DonationView.php:74
+msgid "Hide Details"
+msgstr "Sembunyikan Detail"
+
+#: DonationView.php:78
+msgid "Add a new donation"
+msgstr "Tambah baru kontribusi"
+
+#: DonationView.php:79
+msgid "Move All Donations"
+msgstr "Pindahkan semua kontribusi"
+
+#: DonationView.php:87 Include/Functions.php:72 
+#: Reports/DonationReportYearly.php:284
+msgid "Date"
+msgstr "Tanggal"
+
+#: DonationView.php:88 FamilyView.php:253 GroupList.php:46 
+#: GroupPropsFormEditor.php:316 GroupView.php:158 GroupView.php:196 
+#: OptionManager.php:75 PersonCustomFieldsEditor.php:297 PersonView.php:387 
+#: Reports/DonationReportYearly.php:284
+msgid "Type"
+msgstr "Jenis"
+
+#: DonationView.php:89
+msgid "Check No"
+msgstr "Ch&egrave;que N°"msgstr "Periksa No"
+
+#: DonationView.php:90 DonationView.php:112
+msgid "Receipt"
+msgstr "Diterima"
+
+#: DonationView.php:91
+msgid "Options"
+msgstr "Pilihan"
+
+#: DonationView.php:110 PersonView.php:393 PersonView.php:435 
+#: PropertyList.php:67 PropertyList.php:107 PropertyTypeList.php:43 
+#: PropertyTypeList.php:65 UserList.php:49 UserList.php:78
+msgid "Edit"
+msgstr "Edit"
+
+#: DonationView.php:111 PropertyList.php:68 PropertyList.php:108 
+#: PropertyTypeList.php:44 PropertyTypeList.php:67 PropertyTypeList.php:69 
+#: UserList.php:50 UserList.php:79
+msgid "Delete"
+msgstr "Hapus"
+
+#: DonationView.php:126
+msgid "Donation by Fund"
+msgstr "Kontribusi oleh Asosiasi
+
+#: DonationViewReceipt.php:43
+msgid "Receipt number:"
+msgstr "Jumlah yang diterima:
+
+#: DonationViewReceipt.php:82 Reports/DonationReportYearly.php:292
+msgid "Cash"
+msgstr "Species"
+
+#: DonationViewReceipt.php:83 Reports/DonationReportYearly.php:295
+msgid "Check"
+msgstr "Periksa"
+
+#: DonationViewReceipt.php:84 Reports/DonationReportYearly.php:299
+msgid "Credit"
+msgstr "kartu kredit"
+
+#: DonationViewReceipt.php:97
+msgid "Dear"
+msgstr "terhormat"
+
+#: DonationViewReceipt.php:105
+msgid "Receipt:"
+msgstr "Diterima:"
+
+#: DonationViewReceipt.php:114 GroupPropsFormEditor.php:412 
+#: PersonCustomFieldsEditor.php:393 PropertyEditor.php:133
+msgid "Type:"
+msgstr "Jenis:"
+
+#: FamilyEditor.php:21
+msgid "Family Editor"
+msgstr "Manajemen Keluarga"
+
+#: FamilyEditor.php:118
+msgid "You must enter a Name."
+msgstr "Anda harus memasukkan nama."
+
+#: FamilyEditor.php:131
+msgid "Not a valid WeddingDate"
+msgstr "Tanggal tidak valid"
+
+#: FamilyEditor.php:266 FamilyEditor.php:490 GroupEditor.php:273 
+#: GroupPropsEditor.php:144 GroupPropsEditor.php:183 NoteEditor.php:170 
+#: PersonEditor.php:398 PersonEditor.php:742 PropertyEditor.php:172 
+#: PropertyTypeEditor.php:107 UserEditor.php:248 UserPasswordChange.php:173 
+#: UserProfileEditor.php:84
+msgid "Save"
+msgstr ""
+
+#: FamilyEditor.php:267 PersonEditor.php:399 PersonEditor.php:743
+msgid "Save and Add"
+msgstr "Simpan dan Tambahkan"
+
+#: FamilyEditor.php:280
+msgid "Family Name:"
+msgstr "Nama Belakang"
+
+#: FamilyEditor.php:309 PersonEditor.php:554
+msgid "(Use the textbox for non-US countries)"
+msgstr "(Gunakan ini kepada orang-orang yang tidak tinggal di AS)"
+
+#: FamilyEditor.php:333 FamilyEditor.php:341 FamilyEditor.php:349 
+#: PersonEditor.php:585 PersonEditor.php:600 PersonEditor.php:615 
+#: Include/Functions.php:850
+msgid "Do not auto-format"
+msgstr "Jangan gunakan otomatis"
+
+#: FamilyEditor.php:363 FamilyView.php:227
+msgid "Wedding Date:"
+msgstr "Wedding Date"
+
+#: FamilyEditor.php:378 
+msgid "" 
+You may create family members now or add them later.  All entries will  
+become <i>new</i> person records. 
+msgstr ""
+Anda dapat membuat anggota keluarga mereka menambahkan sekarang atau nanti. Semua entri
+<i> menjadi baru </ i> catatan dari siapa pun.
+
+#: FamilyEditor.php:383
+msgid "Complete Name"
+msgstr "Nama Lengkap"
+
+#: FamilyEditor.php:385
+msgid "Birth Date"
+msgstr "Ulang Tahun"
+
+#: FamilyEditor.php:388
+msgid "Family Members"
+msgstr "Anggota Keluarga"
+
+#: FamilyEditor.php:389
+msgid "First"
+msgstr "Nama"
+
+#: FamilyEditor.php:390
+msgid "Middle"
+msgstr "Nama Tengah"
+
+#: FamilyEditor.php:391
+msgid "Last"
+msgstr ""
+
+#: FamilyEditor.php:392 FamilyView.php:375 PrintView.php:278 
+#: SelectList.php:260
+msgid "Gender"
+msgstr "Sex"
+
+#: FamilyEditor.php:393 FamilyView.php:376 OptionManager.php:63 
+#: OptionManager.php:81 PersonView.php:510 PrintView.php:279 PrintView.php:338 
+#: Reports/GroupReport.php:248
+msgid "Role"
+msgstr "Peranan"
+
+#: FamilyEditor.php:394
+msgid "Month"
+msgstr "Bulan"
+
+#: FamilyEditor.php:395
+msgid "Day"
+msgstr "Hari"
+
+#: FamilyEditor.php:396 Include/Functions.php:76
+msgid "Year"
+msgstr "Tahun"
+
+#: FamilyEditor.php:429 PersonEditor.php:450
+msgid "Select Gender"
+msgstr "Pilih Sex"
+
+#: FamilyEditor.php:437
+msgid "Select Role"
+msgstr "Pilih Peran"
+
+#: FamilyEditor.php:451 PersonEditor.php:643
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: FamilyEditor.php:452 PersonEditor.php:644
+msgid "January"
+msgstr "Januari"
+
+#: FamilyEditor.php:453 PersonEditor.php:645
+msgid "February"
+msgstr "Februari"
+
+#: FamilyEditor.php:454 PersonEditor.php:646
+msgid "March"
+msgstr "Mars"
+
+#: FamilyEditor.php:455 PersonEditor.php:647
+msgid "April"
+msgstr "April"
+
+#: FamilyEditor.php:456 PersonEditor.php:648
+msgid "May"
+msgstr "Mei"
+
+#: FamilyEditor.php:457 PersonEditor.php:649
+msgid "June"
+msgstr "Juni"
+
+#: FamilyEditor.php:458 PersonEditor.php:650
+msgid "July"
+msgstr "Juli"
+
+#: FamilyEditor.php:459 PersonEditor.php:651
+msgid "August"
+msgstr "Agustus"
+
+#: FamilyEditor.php:460 PersonEditor.php:652
+msgid "September"
+msgstr "September"
+
+#: FamilyEditor.php:461 PersonEditor.php:653
+msgid "October"
+msgstr "Oktober"
+
+#: FamilyEditor.php:462 PersonEditor.php:654
+msgid "November"
+msgstr "November"
+
+#: FamilyEditor.php:463 PersonEditor.php:655
+msgid "December"
+msgstr "Desember"
+
+#: FamilyView.php:21
+msgid "Family View"
+msgstr "Lihat Dari Keluarga"
+
+#: FamilyView.php:86 FamilyView.php:352 PersonView.php:127 PersonView.php:614
+msgid "Edit this Record"
+msgstr "Mengubah Rekam"
+
+#: FamilyView.php:87 FamilyView.php:354 PersonView.php:128 PersonView.php:616
+msgid "Delete this Record"
+msgstr "Hapus rekaman"
+
+#: FamilyView.php:96
+msgid "The"
+msgstr ""
+
+#: FamilyView.php:96 OptionManager.php:62 PropertyAssign.php:77 
+#: PropertyEditor.php:41 PropertyList.php:31 PropertyTypeEditor.php:92 
+#: PropertyTypeList.php:61 SelectList.php:261 Include/Header.php:461
+msgid "Family"
+msgstr "Keluarga"
+
+#: FamilyView.php:110 PersonView.php:181
+msgid "View Map"
+msgstr "Melihat dari Peta"
+
+#: FamilyView.php:117 PersonView.php:188
+msgid "No photo selected for uploading."
+msgstr "Tidak ada foto yang dipilih untuk men-download."
+
+#: FamilyView.php:119 PersonView.php:190
+msgid "Only jpeg photos can be uploaded."
+msgstr "Tidak hanya itu dalam foto jpeg yang dapat didownload."
+
+#: FamilyView.php:182 PersonView.php:253
+msgid "Delete Photo"
+msgstr "Foto dihapus"
+
+#: FamilyView.php:195 PersonView.php:266
+msgid "Upload Photo"
+msgstr "Download Foto"
+
+#: FamilyView.php:204 PersonView.php:276
+msgid "General Information:"
+msgstr "Umum"
+
+#: FamilyView.php:236 GroupView.php:181 PersonView.php:371 PrintView.php:394
+msgid "Assigned Properties:"
+msgstr "Ditugaskan Properties"
+
+#: FamilyView.php:245 GroupView.php:188 PersonView.php:380 PrintView.php:406
+msgid "No property assignments."
+msgstr "Tidak ada harta yang ditugaskan."
+
+#: FamilyView.php:255 GroupView.php:198 PersonView.php:389 PersonView.php:566 
+#: PrintView.php:413
+msgid "Value"
+msgstr "Nilai"
+
+#: FamilyView.php:259 FamilyView.php:302 GroupView.php:203 GroupView.php:243
+msgid "Edit Value"
+msgstr "Ubah Nilai"
+
+#: FamilyView.php:328 GroupView.php:274 PersonView.php:458
+msgid "Assign a New Property:"
+msgstr "Menetapkan Properti Baru"
+
+#: FamilyView.php:358 FamilyView.php:500 PersonView.php:634 PersonView.php:670 
+#: PrintView.php:447
+msgid "Entered:"
+msgstr "Sisipkan"
+
+#: FamilyView.php:364 PersonView.php:641
+msgid "Last edited:"
+msgstr "Last Modified"
+
+#: FamilyView.php:364 FamilyView.php:500 FamilyView.php:506 PersonView.php:634 
+#: PersonView.php:641 PersonView.php:670 PersonView.php:676 PrintView.php:451
+msgid "by"
+msgstr "oleh"
+
+#: FamilyView.php:369 PrintView.php:274
+msgid "Family Members:"
+msgstr "anggota keluarga"
+
+#: FamilyView.php:377 PrintView.php:280
+msgid "Age"
+msgstr "Umur"
+
+#: FamilyView.php:378 OptionManager.php:69
+msgid "Classification"
+msgstr "Klasifikasi"
+
+#: FamilyView.php:458
+msgid "Assign a New Classification:"
+msgstr "Menetapkan klasifikasi baru:"
+
+#: FamilyView.php:460
+msgid "Select Classification"
+msgstr "Pilih Klasifikasi"
+
+#: FamilyView.php:472 UserList.php:76
+msgid "Change"
+msgstr "Ganti"
+
+#: FamilyView.php:474
+msgid "(This will reset the Classification of ALL family members.)"
+msgstr "(Ini akan ulang klasifikasi dari semua anggota keluarga.)"
+
+#: FamilyView.php:481 PersonView.php:652 PrintView.php:440
+msgid "Notes:"
+msgstr "Catatan"
+
+#: FamilyView.php:485 PersonView.php:656
+msgid "Add a Note to this Record"
+msgstr "Tambah ke Catatan Dicatat"
+
+#: FamilyView.php:506 PersonView.php:676 PrintView.php:451
+msgid "Last Edited:"
+msgstr "Terakhir diperbaharui:
+
+#: FamilyView.php:510 PersonView.php:680
+msgid "Edit This Note"
+msgstr "Ubah Catatan ini"
+
+#: FamilyView.php:512 PersonView.php:681
+msgid "Delete This Note"
+msgstr "Hapus Catatan"
+
+#: GroupDelete.php:29
+msgid "Group Delete Confirmation"
+msgstr "Konfirmasi Hapus Grup"
+
+#: GroupDelete.php:89
+msgid "Please confirm deletion of this group record:"
+msgstr "Silakan konfirmasi penghapusan grup ini perekaman:"
+
+#: GroupDelete.php:97
+msgid ""
+This will also delete all Roles and Group-Specific Property data associated 
+with this Group record.
+msgstr ""
+Ini akan menghapus semua peran dan data properti dari grup terhubung
+grup pendaftaran.
+
+#: GroupDelete.php:101 NoteDelete.php:81 PropertyDelete.php:67
+msgid "(this action cannot be undone)"
+msgstr "(tindakan ini tidak dapat dibatalkan)
+
+#: GroupEditor.php:28
+msgid "Group Editor"
+msgstr "Manajemen Group"
+
+#: GroupEditor.php:195 
+msgid "" 
+Are you sure you want to remove the group-specific person properties?  All  
+group member properties data will be lost! 
+msgstr ""
+Apakah Anda yakin ingin menghapus properti tertentu sekelompok orang?
+Semua data pada properti dari anggota grup yang akan hilang!
+
+#: GroupEditor.php:203 
+msgid "" 
+This will create a group-specific properties table for this group.  You  
+should then add needed properties with the Group-Specific Properties Form  
+Editor. 
+msgstr ""
+Kelompok ini akan membuat sebuah tabel khusus properti untuk grup ini. Anda
+maka harus menambahkan properti yang diperlukan untuk pengelolaan dalam bentuk
+properti dari kelompok tertentu.
+
+#: GroupEditor.php:231 GroupView.php:120
+msgid "Type of Group:"
+msgstr "Grup ketik:
+
+#: GroupEditor.php:234 PersonEditor.php:489 PersonEditor.php:511 
+#: PersonEditor.php:688 PrintMember.php:155 Include/Functions.php:817
+#: Include/Functions.php:859
+msgid "Unassigned"
+msgstr "ditugaskan"
+
+#: GroupEditor.php:251
+msgid "Group-Specific<br>Properties:"
+msgstr "<br> Khusus Properties of Group:"
+
+#: GroupEditor.php:253
+msgid "Use group-specific properties?"
+msgstr "Apakah Anda ingin menggunakan properti dari kelompok tertentu?"
+
+#: GroupEditor.php:258 GroupView.php:99
+msgid "Edit Group-Specific Properties Form"
+msgstr "Edit Properties Membentuk Kelompok Khusus
+
+#: GroupEditor.php:266
+msgid "Empty Cart to this Group?"
+msgstr "Kosongkan keranjang untuk grup ini?"
+
+#: GroupEditor.php:293
+msgid "Group Roles:"
+msgstr "Peranan dari Grup:"
+
+#: GroupEditor.php:300
+msgid "Initial Group Creation:  Group roles can be edited after the first save."
+msgstr "Membuat Initial Group: Peranan kelompok dapat diubah setelah cadangan."
+
+#: GroupList.php:21
+msgid "Group Listing"
+msgstr "Daftar Kelompok"
+
+#: GroupList.php:29 Include/Header.php:303 Include/Header.php:610
+msgid "Add a New Group"
+msgstr "Tambah Grup Baru"
+
+#: GroupList.php:45
+msgid "Members"
+msgstr "Anggota"
+
+#: GroupList.php:77 GroupView.php:66
+msgid "Undefined"
+msgstr "tanpa batas"
+
+#: GroupMemberList.php:112 GroupMemberList.php:129 SelectList.php:181 
+#: SelectList.php:430
+msgid "View All"
+msgstr "lihat"
+
+#: GroupMemberList.php:119
+msgid "Show only"
+msgstr "Tampilkan Hanya"
+
+#: GroupMemberList.php:122 SelectList.php:248 SelectList.php:495
+msgid "Go"
+msgstr ""
+
+#: GroupMemberList.php:147
+msgid "Previous Page"
+msgstr "Halaman Sebelumnya"
+
+#: GroupMemberList.php:170 SelectList.php:227 SelectList.php:474
+msgid "Next Page"
+msgstr "Berikutnya"
+
+#: GroupMemberList.php:179 PrintGroup.php:57
+msgid "Group Role"
+msgstr "Peranan Grup"
+
+#: GroupMemberList.php:183 PrintGroup.php:53 PrintMember.php:92
+msgid "ZIP"
+msgstr "ZIP"
+
+#: GroupMemberList.php:184 GroupReports.php:158 PrintGroup.php:54 
+#: PrintMember.php:93
+msgid "Home Phone"
+msgstr "Telepon Orang"
+
+#: GroupMemberList.php:185 PrintGroup.php:55 PrintMember.php:94
+msgid "E-mail"
+msgstr "Email"
+
+#: GroupPropsEditor.php:28
+msgid "Group Member Properties Editor"
+msgstr "Properties Management Group Members"
+
+#: GroupPropsEditor.php:127 
+msgid "" 
+This group currently has no properties!  You can add them in the Group  
+Editor. 
+msgstr ""msgstr ""
+Grup ini tidak memiliki kekayaan! Anda dapat menambahkan dalam
+Kelompok Cetak.
+
+#: GroupPropsEditor.php:129
+msgid "Return to Person Record"
+msgstr "Kembali ke pendaftaran orang"
+
+#: GroupPropsEditor.php:134
+msgid "Editing"
+msgstr ""
+
+#: GroupPropsEditor.php:134
+msgid "data for member"
+msgstr "data anggota"
+
+#: GroupPropsFormEditor.php:41
+msgid "Group-Specific Properties Form Editor:"
+msgstr "Editor Form Khusus Properties Group"
+
+#: GroupPropsFormEditor.php:181
+msgid "'Default Option'"
+msgstr " 'standar'
+
+#: GroupPropsFormEditor.php:273 
+msgid "" 
+Warning:  By deleting this field, you will irrevokably lose all group member  
+data assigned for this field! 
+msgstr ""
+Peringatan: Dengan menghapus bidang ini, Anda kehilangan semua dilakukan
+Data yang ditugaskan ke bidang ini untuk anggota grup "
+
+#: GroupPropsFormEditor.php:287
+msgid "No properties have been added yet"
+msgstr "Tidak ada properti sudah ditambahkan"
+
+#: GroupPropsFormEditor.php:296 OptionManager.php:266 
+msgid "" 
+Warning: Field changes will be lost if you do not 'Save Changes' before  
+using an up, down, delete, or 'add new' button! 
+msgstr "Peringatan: bidang dimodifikasi akan hilang jika anda 'Simpan Perubahan' avant'utiliser tombol atas, bawah, menghapus atau menambahkan yang baru"
+
+#: GroupPropsFormEditor.php:319 PersonCustomFieldsEditor.php:299
+msgid "Special option"
+msgstr "Opsi Khusus"
+
+#: GroupPropsFormEditor.php:320
+msgid "Show in"
+msgstr ""
+
+#: GroupPropsFormEditor.php:320 PersonView.php:122
+msgid "Person View"
+msgstr "Lihat file Person"
+
+#: GroupPropsFormEditor.php:358
+msgid "Select a group"
+msgstr "Pilih grup"
+
+#: GroupPropsFormEditor.php:375 PersonCustomFieldsEditor.php:353
+msgid "You must select a group."
+msgstr "Anda harus memilih salah satu grup."
+
+#: GroupPropsFormEditor.php:422 PersonCustomFieldsEditor.php:404
+msgid "Help on types.."
+msgstr "Bantuan pada jenis .."
+
+#: GroupPropsFormEditor.php:429 PersonCustomFieldsEditor.php:411
+msgid "That field name already exists."
+msgstr "Ini bidang nama sudah ada."
+
+#: GroupPropsFormEditor.php:439 PersonCustomFieldsEditor.php:422
+msgid "Add New Field"
+msgstr "Tambah kolom baru"
+
+#: GroupReports.php:27
+msgid "Group reports"
+msgstr "Laporan Grup"
+
+#: GroupReports.php:91
+msgid "Select the group you would like to report:"
+msgstr "Pilih grup yang ingin laporan:"
+
+#: GroupReports.php:113
+msgid "Only cart persons?:"
+msgstr "Hanya Orang Keranjang?"
+
+#: GroupReports.php:117
+msgid "Report Model:"
+msgstr "Model Lapor"
+
+#: GroupReports.php:119
+msgid "Report for group and role selected"
+msgstr "Laporkan ke grup dan peran dipilih"
+
+#: GroupReports.php:120
+msgid "Report for any role in group selected"
+msgstr "Laporan untuk setiap peran dalam grup dipilih"
+
+#: GroupReports.php:127
+msgid "Next"
+msgstr "Berikutnya"
+
+#: GroupReports.php:151
+msgid "Select which information you want to include"
+msgstr "Pilih informasi yang akan dimasukkan ke"
+
+#: GroupReports.php:155
+msgid "Standard Info:"
+msgstr "Standar"
+
+#: GroupReports.php:159
+msgid "Work Phone"
+msgstr "Telepon Profesional"
+
+#: GroupReports.php:160
+msgid "Cell Phone"
+msgstr "Mobile Phone"
+
+#: GroupReports.php:161 Reports/DirectoryReport.php:213 
+#: Reports/DirectoryReport.php:269 Reports/DirectoryReport.php:328 
+#: Reports/DirectoryReport.php:496 Reports/GroupReport.php:273
+msgid "Email"
+msgstr "Email"
+
+#: GroupReports.php:162 Reports/GroupReport.php:276
+msgid "Other Email"
+msgstr "Lain-lain Email"
+
+#: GroupReports.php:163
+msgid "GroupRole"
+msgstr "Peranan"
+
+#: GroupReports.php:167
+msgid "Group-Specific Property Fields:"
+msgstr "Properti kolom khusus untuk Grup:"
+
+#: GroupReports.php:186
+msgid "Create Report"
+msgstr "Buat Laporan"
+
+#: GroupView.php:21
+msgid "Group View"
+msgstr "Grup Tampilkan"
+
+#: GroupView.php:95
+msgid "Edit this Group"
+msgstr "Edit grup"
+
+#: GroupView.php:96
+msgid "Delete this Group"
+msgstr "Hapus Grup ini"
+
+#: GroupView.php:102
+msgid "Add Group Members to Cart"
+msgstr "Tambahkan ke Keranjang Group Members"
+
+#: GroupView.php:103
+msgid "Print Group Members"
+msgstr "Cetak Group Members"
+
+#: GroupView.php:118
+msgid "Total Members:"
+msgstr "Semua Anggota"
+
+#: GroupView.php:122
+msgid "Default Role:"
+msgstr "Peranan default:"
+
+#: GroupView.php:130
+msgid "Group-Specific Properties:"
+msgstr "Grup Khusus Properties"
+
+#: GroupView.php:177
+msgid "Disabled for this group."
+msgstr "unusable untuk grup."
+
+#: GroupView.php:290 PersonView.php:473 PersonView.php:602 
+#: PropertyAssign.php:186
+msgid "Assign"
+msgstr "Ditugaskan"
+
+#: GroupView.php:301
+msgid "Group Members:"
+msgstr "Anggota kelompok"
+
+#: MemberRoleChange.php:28
+msgid "Member Role Change"
+msgstr "Mengganti Peran dari Anggota"
+
+#: MemberRoleChange.php:79
+msgid "Group Name:"
+msgstr "Grup"
+
+#: MemberRoleChange.php:83
+msgid "Member's Name:"
+msgstr "Nama Anggota"
+
+#: MemberRoleChange.php:87
+msgid "Current Role:"
+msgstr "Peristiwa Peranan:
+
+#: MemberRoleChange.php:91
+msgid "New Role:"
+msgstr "Baru Peran"
+
+#: MemberRoleChange.php:119 PropertyAssign.php:186
+msgid "Update"
+msgstr "Update"
+
+#: Menu.php:23
+msgid "Welcome to InfoCentral"
+msgstr "Selamat Datang ke InfoCentral"
+
+#: Menu.php:29
+msgid "Hi"
+msgstr "Selamat datang "
+
+#: Menu.php:29
+msgid "welcome back"
+msgstr "dan selamat datang kembali"
+
+#: Menu.php:34
+msgid "This is your first login."
+msgstr "Ini adalah yang pertama kali Anda menyambung"
+
+#: Menu.php:36
+msgid "You last logged in on "
+msgstr "Anda terakhir login tanggal"
+
+#: Menu.php:36
+msgid "at"
+msgstr ""
+
+#: Menu.php:41
+msgid "There were"
+msgstr "Anda"
+
+#: Menu.php:41
+msgid "failed login attempt(s) since your last successful login."
+msgstr "mencoba (s) opening (s) gagal (s) sejak terakhir Anda berhasil membuka."
+
+#: NoteDelete.php:29
+msgid "Note Delete Confirmation"
+msgstr "Konfirmasi penghapusan dari catatan"
+
+#: NoteDelete.php:73
+msgid "Please confirm deletion of this note:"
+msgstr "Silakan konfirmasi penghapusan catatan:"
+
+#: NoteEditor.php:29
+msgid "Note Editor"
+msgstr "Catatan Editor"
+
+#: NoteEditor.php:166
+msgid "Private"
+msgstr "Pribadi"
+
+#: OptionManager.php:68 PropertyAssign.php:45 PropertyEditor.php:37 
+#: PropertyList.php:27 PropertyTypeEditor.php:91 PropertyTypeList.php:61 
+#: Include/Header.php:461
+msgid "Person"
+msgstr "Jemaat"
+
+#: OptionManager.php:74 PropertyAssign.php:61 PropertyEditor.php:45 
+#: PropertyList.php:35 PropertyTypeEditor.php:93 PropertyTypeList.php:61
+msgid "Group"
+msgstr "Grup"
+
+#: OptionManager.php:80
+msgid "Group Member"
+msgstr "anggota kelompok"
+
+#: OptionManager.php:99
+msgid "Custom List"
+msgstr "Custom List"
+
+#: OptionManager.php:100
+msgid "Option"
+msgstr "Opsi"
+
+#: OptionManager.php:258
+msgid "Warning:  If you delete this "
+msgstr "Peringatan: Jika anda menghapus"
+
+#: OptionManager.php:258
+msgid ", all "
+msgstr "semua"
+
+#: OptionManager.php:258
+msgid "s using it will have this value reset to default."
+msgstr "s akan digunakan sebagai standar nilai."
+
+#: OptionManager.php:273
+msgid "Error: Duplicate"
+msgstr "Kesalahan: Duplication"
+
+#: OptionManager.php:273
+msgid "s are not allowed."
+msgstr "s tidak diijinkan."
+
+#: OptionManager.php:305
+msgid "Default"
+msgstr "Default"
+
+#: OptionManager.php:334
+msgid "Make Default"
+msgstr "Default"
+
+#: OptionManager.php:349
+msgid "Add New"
+msgstr "Tambah Baru"
+
+#: OptionManager.php:355
+msgid "Error: You must enter a name."
+msgstr "Kesalahan: Anda harus memasukkan nama."
+
+#: OptionManager.php:357
+msgid "Error: A "
+msgstr "Kesalahan: An"
+
+#: OptionManager.php:357
+msgid " by that name already exists."
+msgstr "dengan nama yang sudah ada."
+
+#: PersonCustomFieldsEditor.php:27
+msgid "Custom Person Fields Editor"
+msgstr "Kolom Kustom"
+
+#: PersonCustomFieldsEditor.php:163
+msgid "Default Option"
+msgstr "default"
+
+#: PersonCustomFieldsEditor.php:254
+msgid ""
+Warning:  By deleting this field, you will irrevokably lose all person data  
+assigned for this field! 
+msgstr ""
+Peringatan: Dengan menghapus bidang ini, Anda kehilangan semua data adalah orang
+dialihkan ke bidang ini!
+
+#: PersonCustomFieldsEditor.php:268
+msgid "No custom person fields have been added yet"
+msgstr "Tidak kustom bidang telah terpasang"
+
+#: PersonCustomFieldsEditor.php:277 
+msgid "" 
+Warning: Field changes will be lost if you do not 'Save Changes' before  
+using an up, down, delete or 'add new' button! 
+msgstr ""
+Peringatan: bidang dimodifikasi akan hilang jika anda 'tidak sebelum Simpan Perubahan
+Menggunakan tombol-tombol atas, bawah, menghapus atau menambahkan yang baru
+
+#: PersonCustomFieldsEditor.php:300
+msgid "Person-View Side"
+msgstr "Nobody - Keuangan Mitra"
+
+#: PersonCustomFieldsEditor.php:356
+msgid "Edit List Options"
+msgstr "Edit Daftar Pilihan"
+
+#: PersonCustomFieldsEditor.php:363 PersonCustomFieldsEditor.php:417
+msgid "Left"
+msgstr "Kiri"
+
+#: PersonCustomFieldsEditor.php:364 PersonCustomFieldsEditor.php:418
+msgid "Right"
+msgstr "Kanan"
+
+#: PersonCustomFieldsEditor.php:410 PropertyTypeEditor.php:43
+msgid "You must enter a name"
+msgstr "Anda harus memasukkan nama"
+
+#: PersonCustomFieldsEditor.php:416
+msgid "Side:"
+msgstr "Side"
+
+#: PersonEditor.php:21
+msgid "Person Editor"
+msgstr "Orang"
+
+#: PersonEditor.php:108
+msgid "You must enter a First Name."
+msgstr "Anda harus masukkan sebuah nama."
+
+#: PersonEditor.php:116
+msgid "You must enter a Last Name if no Family is selected."
+msgstr "Anda harus memasukkan nama jika tidak ada keluarga telah dipilih."
+
+#: PersonEditor.php:131
+msgid "Invalid Year: allowable values are 1901 to 2155"
+msgstr "tidak valid Tahun: nilai diijinkan antara 1901 dan 2155"
+
+#: PersonEditor.php:138
+msgid "Invalid Birth Date."
+msgstr "Lahir valid."
+
+#: PersonEditor.php:150
+msgid "Not a valid Membership Date"
+msgstr "Tanggal tidak valid Accession"
+
+#: PersonEditor.php:406
+msgid "Items in"
+msgstr "Menempatkan elemen"
+
+#: PersonEditor.php:406
+msgid "red"
+msgstr "merah"
+
+#: PersonEditor.php:406
+msgid "have corresponding values on the associated family record."
+msgstr "nilai-nilai yang sesuai dengan catatan yang terkait dengan keluarga ini."
+
+#: PersonEditor.php:463 PersonView.php:318
+msgid "Donation Envelope:"
+msgstr "Envelope kontribusi"
+
+#: PersonEditor.php:486 PrintView.php:209
+msgid "Family:"
+msgstr "Keluarga"
+
+#: PersonEditor.php:631 PrintView.php:241
+msgid "Work / Other Email:"
+msgstr "Kerja / Lain-lain Email:
+
+#: PersonEditor.php:640
+msgid "Birth Date:"
+msgstr "Tanggal Lahir:
+
+#: PersonEditor.php:658
+msgid "Unk"
+msgstr "N / A"
+
+#: PersonEditor.php:671
+msgid "Birth Year:"
+msgstr "Tahun Lahir:
+
+#: PersonEditor.php:672
+msgid "Must be four-digit format."
+msgstr "Anda harus memasukkan angka 4."
+
+#: PersonView.php:119
+msgid "Not assigned"
+msgstr "ditugaskan"
+
+#: PersonView.php:130
+msgid "Printable Page"
+msgstr "Halaman dicetak"
+
+#: PersonView.php:131 PersonView.php:621 SelectList.php:339
+msgid "Add to Cart"
+msgstr "Tambah ke Keranjang"
+
+#: PersonView.php:138 PersonView.php:625
+msgid "Make User"
+msgstr "Buat Pengguna"
+
+#: PersonView.php:140
+msgid "Edit User"
+msgstr "Mengedit Pengguna"
+
+#: PersonView.php:146
+msgid "Add Donation"
+msgstr "Tambah Biaya"
+
+#: PersonView.php:162
+msgid "Member"
+msgstr "Anggota"
+
+#: PersonView.php:163
+msgid " of the"
+msgstr "dari"
+
+#: PersonView.php:163
+msgid " family)"
+msgstr "keluarga)"
+
+#: PersonView.php:166
+msgid "(No assigned family)"
+msgstr "(Tidak ada yang ditugaskan Keluarga)"
+
+#: PersonView.php:299
+msgid "Birthdate:"
+msgstr "Tanggal Lahir:
+
+#: PersonView.php:303
+msgid "Age:"
+msgstr "Umur"
+
+#: PersonView.php:483 PrintView.php:319
+msgid "Assigned Groups:"
+msgstr "Grup Ditugaskan"
+
+#: PersonView.php:487
+msgid ""
+Warning: If you remove this group membership, you will irrevokably lose any  
+member data assigned 
+msgstr ""
+Peringatan: Jika anda menghapus keanggotaan grup ini, Anda akan kehilangan semua dilakukan
+Data yang terkait dengan Negara
+
+#: PersonView.php:503 PrintView.php:331
+msgid "No group assignments."
+msgstr "Tidak ada grup yang ditugaskan."
+
+#: PersonView.php:509 PrintView.php:337
+msgid "Group Name"
+msgstr "Nama Grup"
+
+#: PersonView.php:513 PropertyTypeList.php:40 Include/Header.php:317
+#: Include/Header.php:386 Include/Header.php:620 Include/Header.php:650
+msgid "Properties"
+msgstr "Properties"
+
+#: PersonView.php:537
+msgid "View/Edit"
+msgstr "Voir/Modifier"msgstr "Lihat / Edit"
+
+#: PersonView.php:566 PropertyList.php:56
+msgid "Property"
+msgstr "Properties"
+
+#: PersonView.php:587
+msgid "Assign a New Group:"
+msgstr "Ditugaskan Baru Group:"
+
+#: PersonView.php:604
+msgid "(Person will be assigned to the Group in the Default Role.)"
+msgstr "(Orang yang akan ditetapkan pada Kelompok dengan peran secara default.)"
+
+#: PersonView.php:620
+msgid "Printable Page for this Record"
+msgstr "Cetak halaman ini untuk pendaftaran"
+
+#: PersonView.php:630
+msgid "Red text"
+msgstr "Teks di Merah"
+
+#: PersonView.php:630
+msgid "indicates items inherited from the associated family record."
+msgstr "menunjukkan benda warisan dari catatan yang berhubungan dengan keluarga."
+
+#: PrintGroup.php:30
+msgid "Group Members : "
+msgstr "Anggota kelompok"
+
+#: PrintGroup.php:56 PrintMember.php:95
+msgid "Work / Other E-mail"
+msgstr "Kerja / Lain-lain Email"
+
+#: PrintMember.php:21
+msgid "Person Listing Print Page"
+msgstr "Mencetak dengan Daftar Orang"
+
+#: PrintMember.php:96
+msgid "Date Entered"
+msgstr "Tanggal Masuk"
+
+#: PrintView.php:108
+msgid "Printable View"
+msgstr "Print Preview"
+
+#: PrintView.php:204
+msgid "BirthDate:"
+msgstr "Tanggal Lahir:
+
+#: PropertyAssign.php:127 PropertyAssign.php:146
+msgid "Property successfully assigned."
+msgstr "properti yang telah digunakan dengan sukses."
+
+#: PropertyAssign.php:162
+msgid " Property Assignment"
+msgstr "Tugas dari Kepemilikan"
+
+#: PropertyAssign.php:176
+msgid "Assigning:"
+msgstr "Ditugaskan"
+
+#: PropertyAssign.php:180
+msgid "Value:"
+msgstr "Nilai"
+
+#: PropertyDelete.php:27
+msgid "Property Delete Confirmation"
+msgstr "Konfirmasi Penghapusan Properti"
+
+#: PropertyDelete.php:55
+msgid "Please confirm deletion of this property:"
+msgstr "Silakan konfirmasi penghapusan properti ini:
+
+#: PropertyDelete.php:63
+msgid ""
+Deleting this Property will also delete all assignments of this Property to  
+any People, Family, or Group records. 
+msgstr ""
+Hapus properti ini juga akan menghapus semua properti
+Associated pendaftaran semua individu, keluarga atau kelompok.
+
+#: PropertyEditor.php:55
+msgid "Property Editor"
+msgstr "Properti Editor"
+
+#: PropertyEditor.php:68
+msgid "You must enter a Name"
+msgstr "Anda harus memasukkan Nama"
+
+#: PropertyEditor.php:75
+msgid "You must select a Type"
+msgstr "Anda harus memilih jenis"
+
+#: PropertyEditor.php:136
+msgid "Select Property Type"
+msgstr "Pilih jenis properti"
+
+#: PropertyEditor.php:159 PropertyList.php:63
+msgid "A"
+msgstr ""
+
+#: PropertyEditor.php:159
+msgid "with this property.."
+msgstr "dengan properti ini ..."
+
+#: PropertyEditor.php:163
+msgid "Prompt:"
+msgstr "Demande"
+
+#: PropertyEditor.php:167
+msgid "Entering a Prompt value will allow the association of a free-form value."
+msgstr "Terima ini akan membawa nilai yang baru bidang"
+
+#: PropertyList.php:45
+msgid "Property List"
+msgstr "Daftar Properties"
+
+#: PropertyList.php:56
+msgid "Add a New"
+msgstr "Tambah Baru"
+
+#: PropertyList.php:63
+msgid "with this Property..."
+msgstr "dengan properti ini ..."
+
+#: PropertyList.php:64
+msgid "Prompt"
+msgstr "Demande"
+
+#: PropertyTypeDelete.php:28
+msgid "Property Type Delete Confirmation"
+msgstr "Konfirmasi Hapus Jenis Properti"
+
+#: PropertyTypeDelete.php:61
+msgid "Warning"
+msgstr "Peringatan"
+
+#: PropertyTypeDelete.php:61
+msgid "This property type is still being used by at least one property."
+msgstr "Ini adalah jenis kepemilikan lain yang terkait dengan properti minimal."
+
+#: PropertyTypeDelete.php:61
+msgid "If you delete this type, you will also remove all properties using"
+msgstr "Jika anda menghapus ini, anda juga menghapus semua properti yang terkait"
+
+#: PropertyTypeDelete.php:61
+msgid "it and lose any corresponding property assignments."
+msgstr "dan Anda kehilangan semua properti tugas."
+
+#: PropertyTypeDelete.php:66
+msgid "Please confirm deletion of this Property Type:"
+msgstr "Silakan konfirmasi penghapusan bentuk kepemilikan"
+
+#: PropertyTypeEditor.php:28
+msgid "Property Type Editor"
+msgstr "Jenis Properti"
+
+#: PropertyTypeEditor.php:88
+msgid "Class:"
+msgstr "Kelas"
+
+#: PropertyTypeList.php:21
+msgid "Property Type List"
+msgstr "Daftar Jenis Properties"
+
+#: PropertyTypeList.php:32
+msgid "Add a New Property Type"
+msgstr "Tambah Baru Jenis Properti"
+
+#: PropertyTypeList.php:39
+msgid "Class"
+msgstr "Kelas"
+
+#: PropertyUnassign.php:102
+msgid " Property Unassignment"
+msgstr "Properti Unassigned"
+
+#: PropertyUnassign.php:109
+msgid "Please confirm removal of this property from this"
+msgstr "Silakan konfirmasi penghapusan ini properti"
+
+#: PropertyUnassign.php:118
+msgid "Unassigning:"
+msgstr "ditugaskan"
+
+#: PropertyUnassign.php:124
+msgid "Yes, unassign this Property"
+msgstr "Ya, ini membatalkan Properti"
+
+#: PropertyUnassign.php:127
+msgid "No, retain this assignment"
+msgstr "Tidak, tetap tugas ini"
+
+#: QueryList.php:21
+msgid "Query Listing"
+msgstr "s Daftar Permintaan"
+
+#: QueryList.php:32
+msgid "Run a Free-Text Query"
+msgstr "Jalankan Query Gratis"
+
+#: QuerySQL.php:21
+msgid "Free-Text Query"
+msgstr "Permintaan Teks Gratis"
+
+#: QuerySQL.php:50
+msgid "Execute SQL"
+msgstr "Jalankan SQL"
+
+#: QuerySQL.php:82
+msgid "An error occured: "
+msgstr "Terjadi kesalahan"
+
+#: QueryView.php:21
+msgid "Query View"
+msgstr "Permintaan Melihat"
+
+#: QueryView.php:98
+msgid "This value is required."
+msgstr "Nilai ini diperlukan."
+
+#: QueryView.php:114
+msgid "This value must be numeric."
+msgstr "Nilai ini harus tipe numerik."
+
+#: QueryView.php:122
+msgid "This value must be at least "
+msgstr "Nilai ini harus setidaknya"
+
+#: QueryView.php:128 QueryView.php:142
+msgid "This value cannot be more than "
+msgstr "Nilai ini tidak dapat melebihi"
+
+#: QueryView.php:142 QueryView.php:148
+msgid " characters long"
+msgstr "karakter"
+
+#: QueryView.php:148
+msgid "This value cannot be less than "
+msgstr "Ini tidak boleh kurang dari"
+
+#: QueryView.php:196
+msgid " record(s) returned"
+msgstr "record (s) kembali (s)"
+
+#: QueryView.php:272
+msgid "Add Results To Cart"
+msgstr "Hasil Tambahkan ke Keranjang"
+
+#: QueryView.php:275
+msgid "Run Query Again"
+msgstr "Jalankan di New Query"
+
+#: QueryView.php:276
+msgid "Return to Query Menu"
+msgstr "Menu Kembali Meminta"
+
+#: ReportList.php:20 Include/Header.php:600
+msgid "Report Menu"
+msgstr "Laporan Menu"
+
+#: ReportList.php:31
+msgid "Donation Summary Report"
+msgstr "ringkasan kontribusi"
+
+#: ReportList.php:33
+msgid ""
+Displays a donation summary report for a specified day, including breakdown  
+by fund. 
+msgstr ""
+Tampilkan ringkasan kontribusi untuk hari tertentu, termasuk penolakan
+oleh asosiasi.
+
+#: ReportList.php:37
+msgid "Donation End of Year Reports for All Members"
+msgstr "Laporan akhir tahun untuk kontribusi Anggota"
+
+#: ReportList.php:39
+msgid "Member Contribution Letter for all members with donations. (multi-page PDF)"
+msgstr "Surat dari anggota kontribusi untuk semua anggota dengan kontribusi (pdf beberapa halaman)"
+
+#: ReportList.php:45
+msgid "Reports on groups and roles"
+msgstr "Laporan kelompok dan peran"
+
+#: ReportList.php:47
+msgid "Report on group and roles selected (it may be a multi-page PDF)."
+msgstr "Laporan kelompok dan memilih peran (mereka dapat dihasilkan dalam multipage PDF)."
+
+#: ReportList.php:53
+msgid "Members Directory"
+msgstr "Direktori Anggota"
+
+#: ReportList.php:55
+msgid "Printable directory of all members, grouped by family where assigned"
+msgstr "cetak direktori dari semua anggota, bersama dengan tugas dari keluarga"
+
+#: SelectDelete.php:35
+msgid "Person Delete Confirmation"
+msgstr "Konfirmasi penghapusan dari orang"
+
+#: SelectDelete.php:37
+msgid "Family Delete Confirmation"
+msgstr "Konfirmasi penghapusan dari keluarga"
+
+#: SelectDelete.php:161
+msgid ""
+Sorry, this person is a user.  An administrator must remove their user  
+status before they may be deleted from the database. 
+msgstr ""
+Maaf, orang ini adalah pengguna. An administrator harus menghapus status mereka
+pengguna sebelum mereka dapat dihapus dari database.
+
+#: SelectDelete.php:162
+msgid "Return to Person View"
+msgstr "Kembali pada hasil dari orang"
+
+#: SelectDelete.php:166
+msgid ""
+Sorry, this person still has donations records.  You must re-assign or  
+delete these donations before you can remove this person. 
+msgstr ""
+"Maaf, orang ini masih memiliki catatan kontribusi. Anda perlu menetapkan baru
+atau menghapus kontribusi mereka agar dapat menghapus orang tersebut. "
+
+
+#: SelectDelete.php:167
+msgid "Number of donations:"
+msgstr "Jumlah kontribusi:
+
+#: SelectDelete.php:177
+msgid " (This action CANNOT be undone!)"
+msgstr "(Tindakan ini tidak dapat dibatalkan!)"
+
+#: SelectDelete.php:183
+msgid "Please confirm deletion of this family record:"
+msgstr "Silakan konfirmasi penghapusan dari pendaftaran dari keluarga:"
+
+#: SelectDelete.php:185
+msgid "This will also delete all Notes associated with this Family record."
+msgstr "Ini akan menghapus semua catatan yang berhubungan dengan keluarga registrasi."
+
+#: SelectDelete.php:186
+msgid " (this action cannot be undone)"
+msgstr "(tindakan ini tidak dapat dibatalkan)
+
+#: SelectDelete.php:187
+msgid "No, cancel this deletion</a>"
+msgstr "Tidak, membatalkan penghapusan </ a>"
+
+#: SelectList.php:35
+msgid "Person Listing"
+msgstr "Daftar Teman"
+
+#: SelectList.php:37
+msgid "Family Listing"
+msgstr "Daftar Keluarga"
+
+#: SelectList.php:161
+msgid "Add a New Person Record"
+msgstr "Add New Person"
+
+#: SelectList.php:163
+msgid "View Printable Page of this Listing"
+msgstr "Cetak halaman ini Ikhtisar daftar"
+
+#: SelectList.php:167 SelectList.php:417
+msgid "Sort order:"
+msgstr "Sortir Order"
+
+#: SelectList.php:169 SelectList.php:419
+msgid "By Name"
+msgstr "Berdasarkan Nama"
+
+#: SelectList.php:170
+msgid "By Family"
+msgstr "Dengan Keluarga"
+
+#: SelectList.php:171 SelectList.php:420
+msgid "By Newest Entries"
+msgstr "Dengan tambahan baru"
+
+#: SelectList.php:175 SelectList.php:424
+msgid "Apply Filter"
+msgstr "Terapkan Penyaring"
+
+#: SelectList.php:240 SelectList.php:487
+msgid "Display:"
+msgstr ""
+
+#: SelectList.php:262 Include/Header.php:250 Include/Header.php:381
+#: Include/Header.php:577 Include/Header.php:648
+msgid "Cart"
+msgstr "Basket"
+
+#: SelectList.php:263
+msgid "vCard"
+msgstr "vCard"
+
+#: SelectList.php:264
+msgid "Printable Record"
+msgstr "Printer"
+
+#: SelectList.php:340
+msgid "Create vCard"
+msgstr "Buat vCard"
+
+#: SelectList.php:341
+msgid "Imprimer la page"
+msgstr "Cetak halaman"
+
+#: SelectList.php:413
+msgid "Add a New Family Record"
+msgstr "Tambah Baru Keluarga"
+
+#: SelectList.php:505
+msgid "Family Name"
+msgstr "Nama Belakang"
+
+#: SelectList.php:510
+msgid "Last Edited"
+msgstr "Terakhir diperbaharui"
+
+#: UserDelete.php:55
+msgid "User Delete Confirmation"
+msgstr "Konfirmasi Hapus Pengguna"
+
+#: UserDelete.php:60
+msgid "Please confirm removal of user status from:"
+msgstr "Silakan konfirmasi gerakan pengguna status:
+
+#: UserEditor.php:130
+msgid "Nope"
+msgstr "Person"
+
+#: UserEditor.php:145
+msgid "User Editor"
+msgstr "Pengguna"
+
+#: UserEditor.php:160
+msgid "Person to Make User:"
+msgstr "Tidak ada User P'boleh ke Buat"
+
+#: UserEditor.php:182 Include/Header.php:469
+msgid "User:"
+msgstr "Pengguna:"
+
+#: UserEditor.php:189
+msgid "Add Records:"
+msgstr "Catatan"
+
+#: UserEditor.php:194
+msgid "Edit Records:"
+msgstr "Mengedit Records"
+
+#: UserEditor.php:199
+msgid "Delete Records:"
+msgstr "Hapus Records"
+
+#: UserEditor.php:204
+msgid "Manage Properties and Classifications:"
+msgstr "Properties dan Manajemen klasifikasi:
+
+#: UserEditor.php:209
+msgid "Manage Groups and Roles:"
+msgstr "Mengelola dan Peranan Kelompok"
+
+#: UserEditor.php:214
+msgid "Manage Donations and Finance:"
+msgstr "Manajemen biaya dan Keuangan"
+
+#: UserEditor.php:219
+msgid "View, Add and Edit Notes:"
+msgstr "Lihat, menambah dan mengedit catatan:"
+
+#: UserEditor.php:231
+msgid "Admin:"
+msgstr "Administrator"
+
+#: UserEditor.php:232
+msgid "(Grants all privileges.)"
+msgstr "(Apakah semua hak istimewa)."
+
+#: UserEditor.php:236
+msgid "Style:"
+msgstr "Gaya"
+
+#: UserEditor.php:241
+msgid "Note: Changes will not take effect until next logon."
+msgstr "Catatan: perubahan akan terjadi di depan reboot."
+
+#: UserList.php:35
+msgid "User Listing"
+msgstr "Daftar User"
+
+#: UserList.php:40
+msgid "Add a New User"
+msgstr "Tambahkan Pengguna Baru"
+
+#: UserList.php:45
+msgid "Last Login"
+msgstr "Login Terakhir"
+
+#: UserList.php:46
+msgid "Total Logins"
+msgstr "Total"
+
+#: UserList.php:47
+msgid "Failed Logins"
+msgstr "Sambungan gagal"
+
+#: UserList.php:48
+msgid "Password"
+msgstr "Password"
+
+#: UserList.php:77
+msgid "Reset"
+msgstr "Hapus"
+
+#: UserPasswordChange.php:45
+msgid "You must enter a password in both boxes"
+msgstr "Anda harus memasukkan sandi di kolom"
+
+#: UserPasswordChange.php:51 UserPasswordChange.php:97
+msgid "You must enter the same password in both boxes"
+msgstr "Anda harus memasukkan sandi yang sama di kedua bidang
+
+#: UserPasswordChange.php:91
+msgid "You must enter your new password in both boxes"
+msgstr "Anda harus memasukkan password baru anda di kedua bidang
+
+#: UserPasswordChange.php:103
+msgid "Your password choice is too obvious. Please choose something else."
+msgstr "Sandi Anda terlalu jelas. Harap pilih yang lain."
+
+#: UserPasswordChange.php:109
+msgid "Your new password must be at least"
+msgstr "Password baru Anda harus memiliki minimal"
+
+#: UserPasswordChange.php:109
+msgid "characters"
+msgstr "karakter"
+
+#: UserPasswordChange.php:115
+msgid "You need to actually change your password (nice try, though!)"
+msgstr "Anda harus benar-benar mengubah password"
+
+#: UserPasswordChange.php:120
+msgid "Your new password is too similar to your old one.  Be more creative!"
+msgstr "Password baru Anda terlalu mirip dengan yang lama. Jadilah kreatif!"
+
+#: UserPasswordChange.php:145
+msgid "User Password Change"
+msgstr "Ubah Password"
+
+#: UserPasswordChange.php:148 
+msgid "" 
+Your account record indicates that you need to change your password before  
+proceding. 
+msgstr ""
+Pendaftaran account Anda menunjukkan bahwa Anda harus mengganti kata sandi sebelum
+Lanjutkan.
+
+#: UserPasswordChange.php:151 
+msgid "" 
+Enter your current password, then your new password twice.  Passwords must  
+be at least 
+msgstr ""
+Masukkan password Anda saat ini dan password baru anda dua kali.
+Sandi harus setidaknya
+
+#: UserPasswordChange.php:151
+msgid "characters in length."
+msgstr "karakter."
+
+#: UserPasswordChange.php:153
+msgid "Enter a new password for this user."
+msgstr "Masukkan password baru untuk user ini."
+
+#: UserPasswordChange.php:160
+msgid "Old Password:"
+msgstr "Sandi lama"
+
+#: UserPasswordChange.php:165
+msgid "New Password:"
+msgstr "Password:"
+
+#: UserPasswordChange.php:169
+msgid "Confirm New Password:"
+msgstr "Konfirmasi Sandi Baru:"
+
+#: UserProfileEditor.php:56
+msgid "Edit Your Profile"
+msgstr "Edit Profil Anda"
+
+#: UserProfileEditor.php:64
+msgid "Workspace Width:"
+msgstr "Lebar Zona bekerja
+
+#: UserProfileEditor.php:73
+msgid "Base Font Size:"
+msgstr "Ukuran font default"
+
+#: UserReset.php:48
+msgid "User Reset"
+msgstr "Menghapus pengguna"
+
+#: UserReset.php:53
+msgid "Please confirm the password reset of this user:"
+msgstr "Silakan konfirmasi password anda untuk menghapus user"
+
+#: UserReset.php:57
+msgid "Yes, reset this User's password"
+msgstr "Ya, menghapus sandi untuk pengguna"
+
+#: UserReset.php:59
+msgid "No, cancel this operation"
+msgstr "Tidak, membatalkan operasi ini"
+
+#: Include/Functions.php:71
+msgid "True / False"
+msgstr "Benar / Salah"
+
+#: Include/Functions.php:73
+msgid "Text Field (50 char)"
+msgstr "Field Text (50 karakter)"
+
+#: Include/Functions.php:74
+msgid "Text Field (100 char)"
+msgstr "Field Teks (100 karakter)"
+
+#: Include/Functions.php:75
+msgid "Text Field (long)"
+msgstr "Teks Bidang (long)"
+
+#: Include/Functions.php:77
+msgid "Season"
+msgstr "Season"
+
+#: Include/Functions.php:78
+msgid "Number"
+msgstr "Jumlah"
+
+#: Include/Functions.php:79
+msgid "Person from Group"
+msgstr "Person kelompok"
+
+#: Include/Functions.php:80
+msgid "Money"
+msgstr "Uang"
+
+#: Include/Functions.php:81
+msgid "Phone Number"
+msgstr "Telepon"
+
+#: Include/Functions.php:82
+msgid "Custom Drop-Down List"
+msgstr "Drop-down adat"
+
+#: Include/Functions.php:88
+msgid "Selected record successfully added to the Cart."
+msgstr "catatan yang dipilih telah ditambahkan ke keranjang."
+
+#: Include/Functions.php:94
+msgid "Selected record successfully removed from the Cart."
+msgstr "catatan yang dipilih telah dihapus dari keranjang."
+
+#: Include/Functions.php:100
+msgid "Your cart has been successfully emptied."
+msgstr "Anda telah dikosongkan keranjang."
+
+#: Include/Functions.php:108
+msgid "item(s) added to the Cart."
+msgstr "elemen (s) ditambahkan (s) ke keranjang."
+
+#: Include/Functions.php:147 Include/Initialize.php:86
+msgid "Cannot execute query."
+msgstr "Tidak dapat menjalankan permintaan tersebut."
+
+#: Include/Functions.php:565 Include/Functions.php:577
+msgid "1 month old"
+msgstr "1 bulan"
+
+#: Include/Functions.php:567 Include/Functions.php:579
+msgid "months old"
+msgstr "bulan"
+
+#: Include/Functions.php:575
+msgid "1 year old"
+msgstr "1 tahun"
+
+#: Include/Functions.php:582 Include/Functions.php:584
+msgid "years old"
+msgstr "tahun"
+
+#: Include/Functions.php:587
+msgid "Age unknown"
+msgstr "Umur tidak diketahui"
+
+#: Include/Functions.php:730
+msgid "Invalid Editor ID!"
+msgstr "Mengganti ID tidak valid!"
+
+#: Include/Functions.php:787
+msgid "Select Season"
+msgstr "Pilih musim"
+
+#: Include/Functions.php:788
+msgid "Winter"
+msgstr "Musim Dingin"
+
+#: Include/Functions.php:789
+msgid "Spring"
+msgstr "Spring"
+
+#: Include/Functions.php:790
+msgid "Summer"
+msgstr "Panas"
+
+#: Include/Functions.php:791
+msgid "Fall"
+msgstr "Autumn"
+
+#: Include/Functions.php:875
+msgid "Error: Invalid Editor ID!"
+msgstr "Kesalahan: Mengganti ID tidak valid!"
+
+#: Include/Functions.php:910
+msgid "Invalid Year"
+msgstr "tidak valid Tahun"
+
+#: Include/Functions.php:915
+msgid "Out of range: Allowable values are 1901 to 2155"
+msgstr "tidak valid Tahun: nilai diijinkan antara 1901 dan 2155"
+
+#: Include/Functions.php:928 Include/Functions.php:946
+msgid "Invalid Number"
+msgstr "nomor tidak valid"
+
+#: Include/Functions.php:933
+msgid "Number too large. Must be between -2147483648 and 2147483647"
+msgstr "Angka terlalu besar, yang harus antara -2147483648 dan 2147483647"
+
+#: Include/Functions.php:951
+msgid "Money amount too large. Maximum is $999999999.99"
+msgstr "Jumlah yang terlalu tinggi. Maksimum adalah 999999999,99 €"
+
+#: Include/Header.php:130
+msgid "Main"
+msgstr "Utama"
+
+#: Include/Header.php:134 Include/Header.php:508
+msgid "Log Off"
+msgstr "Keluar"
+
+#: Include/Header.php:139 Include/Header.php:510
+msgid "Change Password"
+msgstr "Ubah Password"
+
+#: Include/Header.php:147 Include/Header.php:515
+msgid "Admin"
+msgstr "Administrator"
+
+#: Include/Header.php:151 Include/Header.php:517
+msgid "Edit Users"
+msgstr "Edit User"
+
+#: Include/Header.php:156 Include/Header.php:519
+msgid "Add New User"
+msgstr "Tambahkan Pengguna Baru"
+
+#: Include/Header.php:161 Include/Header.php:521
+msgid "Edit Custom Person Fields"
+msgstr "Edit Custom Fields"
+
+#: Include/Header.php:166 Include/Header.php:523
+msgid "Edit Donation Funds"
+msgstr "Mengubah Asosiasi"
+
+#: Include/Header.php:179 Include/Header.php:181
+msgid "People/Families"
+msgstr "Orang-orang / Keluarga"
+
+#: Include/Header.php:185 Include/Header.php:534
+msgid "Add New Person"
+msgstr "Add New Person"
+
+#: Include/Header.php:191 Include/Header.php:541
+msgid "View All Persons"
+msgstr "Lihat Semua Orang"
+
+#: Include/Header.php:198 Include/Header.php:538
+msgid "Classification Manager"
+msgstr "Manajemen klasifikasi"
+
+#: Include/Header.php:211 Include/Header.php:552
+msgid "Add New Family"
+msgstr "Tambah Baru Keluarga"
+
+#: Include/Header.php:217 Include/Header.php:559
+msgid "View All Families"
+msgstr "Lihat Semua Keluarga"
+
+#: Include/Header.php:224 Include/Header.php:556
+msgid "Family Roles Manager"
+msgstr "Pengelolaan Peranan Keluarga"
+
+#: Include/Header.php:233 Include/Header.php:567
+msgid "Finance"
+msgstr "Keuangan"
+
+#: Include/Header.php:237 Include/Header.php:569
+msgid "Donation Batch Entries"
+msgstr "Serangan / Modifikasi Dues"
+
+#: Include/Header.php:254 Include/Header.php:583
+msgid "List Cart Items"
+msgstr "Daftar unsur Basket"
+
+#: Include/Header.php:272 Include/Header.php:594
+msgid "Data/Reports"
+msgstr "Data / Laporan"
+
+#: Include/Header.php:277 Include/Header.php:596
+msgid "CSV Export Records"
+msgstr "CSV Ekspor Records"
+
+#: Include/Header.php:282 Include/Header.php:598
+msgid "Query Menu"
+msgstr "Menu Query"
+
+#: Include/Header.php:287
+msgid "Reports Menu"
+msgstr "Laporan Menu"
+
+#: Include/Header.php:293 Include/Header.php:361 Include/Header.php:604 
+#: Include/Header.php:640
+msgid "Groups"
+msgstr "Grup"
+
+#: Include/Header.php:297 Include/Header.php:606
+msgid "List Groups"
+msgstr "Daftar Kelompok"
+
+#: Include/Header.php:310 Include/Header.php:615
+msgid "Edit Group Types"
+msgstr "Edit Kelompok Jenis"
+
+#: Include/Header.php:321 Include/Header.php:622
+msgid "People Properties"
+msgstr "Properties Orang"
+
+#: Include/Header.php:326 Include/Header.php:624
+msgid "Family Properties"
+msgstr "Keluarga Properties"
+
+#: Include/Header.php:331 Include/Header.php:626
+msgid "Group Properties"
+msgstr "Properties Group
+
+#: Include/Header.php:336 Include/Header.php:628
+msgid "Property Types"
+msgstr "Kepemilikan"
+
+#: Include/Header.php:342 Include/Header.php:632
+msgid "Help"
+msgstr "Bantuan"
+
+#: Include/Header.php:346 Include/Header.php:634
+msgid "About InfoCentral"
+msgstr "Tentang InfoCentral"
+
+#: Include/Header.php:351 Include/Header.php:531 Include/Header.php:636
+msgid "People"
+msgstr "Person"
+
+#: Include/Header.php:356 Include/Header.php:549 Include/Header.php:638
+msgid "Families"
+msgstr "Keluarga"
+
+#: Include/Header.php:366 Include/Header.php:642
+msgid "Finances"
+msgstr Keuangan
+
+#: Include/Header.php:371 Include/Header.php:644
+msgid "Reports"
+msgstr "Laporan"
+
+#: Include/Header.php:376 Include/Header.php:646
+msgid "Administration"
+msgstr "Administrasi"
+
+#: Include/Header.php:391 Include/Header.php:652
+msgid "Notes"
+msgstr "Catatan"
+
+#: Include/Header.php:401 Include/Header.php:656
+msgid "Classifications"
+msgstr "klasifikasi"
+
+#: Include/Header.php:460
+msgid "Search"
+msgstr ""
+
+#: Include/Header.php:465 Include/Header.php:580
+msgid "Items in Cart:"
+msgstr "Elemen Basket"
+
+#: Include/Header.php:504
+msgid "Current User"
+msgstr "Peristiwa Pengguna"
+
+#: Include/ReportFunctions.php:37
+msgid "ERROR: FPDF Library was not found in your path <i>or</i> at: "
+msgstr "KESALAHAN: perpustakaan FPDF tidak ditemukan pada path atau <i> </ i> untuk"
+
+#: Include/ReportFunctions.php:66
+msgid "ERROR: JPGraph Library was not found in your path <i>or</i> at: "
+msgstr "KESALAHAN: JpGraph perpustakaan belum ditemukan di jalan atau <i> </ i> untuk"
+
+#: Reports/DirectoryReport.php:56
+msgid "Member Directory"
+msgstr "Direktori Anggota"
+
+#: Reports/DirectoryReport.php:92
+msgid "Directory"
+msgstr "Direktori"
+
+#: Reports/DirectoryReport.php:209 Reports/DirectoryReport.php:262 
+#: Reports/DirectoryReport.php:321 Reports/DirectoryReport.php:489 
+#: Reports/GroupReport.php:264
+msgid "Work"
+msgstr "Profesi"
+
+#: Reports/DirectoryReport.php:211 Reports/DirectoryReport.php:266 
+#: Reports/DirectoryReport.php:325 Reports/DirectoryReport.php:493 
+#: Reports/GroupReport.php:269
+msgid "Cell"
+msgstr "Cell"
+
+#: Reports/DirectoryReport.php:215
+msgid "Wedding"
+msgstr "Pernikahan"
+
+#: Reports/DirectoryReport.php:237
+msgid "and"
+msgstr "dan"
+
+#: Reports/DirectoryReport.php:271 Reports/DirectoryReport.php:330 
+#: Reports/DirectoryReport.php:498
+msgid "Work/Other Email"
+msgstr "Email Kerja / Lain-lain"
+
+#: Reports/DonationEnvelopeList.php:64
+msgid "Donation Envelope List"
+msgstr "Daftar envelopes Contributions"
+
+#: Reports/DonationReportYearly.php:266
+msgid "Total sum of your donations, received during the year"
+msgstr "Total kontribusi Anda diterima sepanjang tahun"
+
+#: Reports/DonationReportYearly.php:268
+msgid "Below are the details for your donations:"
+msgstr "Di bawah ini rincian kontribusi Anda:
+
+#: Reports/DonationReportYearly.php:284
+msgid "Receipt Number"
+msgstr "Total Penerimaan"
+
+#: Reports/GroupReport.php:61
+msgid "Group Directory"
+msgstr "Grup Direktori"
+
+#: Graphs/donByMonth.php:88
+msgid "Summary of donations for"
+msgstr "Ringkasan kontribusi untuk"
+
+#: Graphs/funds1day.php:61
+msgid "Total by Fund for"
+msgstr "Per Asosiasi"

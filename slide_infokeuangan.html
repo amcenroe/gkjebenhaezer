@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Slide Informasi Keuangan GKJ Bekti</title>
+<style type="text/css">
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+html, body, iframe {
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+</style>
+<script type="text/javascript">
+var pages = new Array(); // this will hold your pages
+pages[0] = 'PrintViewInfoPersembahan.php';
+pages[1] = 'PrintViewPersembahanBulanan.php?Scroll=1';
+pages[2] = 'PrintViewPersembahanKartuPPPG.php?Pos=1';
+pages[3] = 'PrintViewPersembahanKartuPPPG.php?Pos=3';
+pages[4] = 'PrintViewPersembahanKartuPPPG.php?Pos=4';
+pages[5] = 'PrintViewLapPPPGRekap.php?Rekap=YES';
+
+var time = 30; // set this to the time you want it to rotate in seconds
+
+// do not edit
+var i = 1;
+function setPage()
+{
+	if(i == pages.length)
+	{
+		i = 0;	
+	}
+	document.getElementById('holder').setAttribute('src',pages[i]);
+	i++;
+}
+setInterval("setPage()",time * 1000);
+// do not edit
+
+var startTime, countAmt, interval;
+
+function now() {
+  return ((new Date()).getTime());
+}
+
+function tick() {
+  var elapsed = now() - startTime;
+  var cnt = countAmt - elapsed;
+  var elem = document.getElementById("counter");
+  if (cnt > 0) {
+    elem.innerHTML = Math.round(cnt / 1000);
+  } else {
+    elem.innerHTML = "0";
+    clearInterval(interval);
+  }
+}
+
+function startTimer(secs) {
+  clearInterval(interval);
+  document.getElementById("counter").innerHTML = secs;
+  countAmt = secs * 1000;
+  startTime = now();
+  interval = setInterval(tick, 1000);  
+}
+
+startTimer(20);
+
+</script>
+</head>
+
+<body>
+<div id="counter"></div>
+<iframe id="holder" src="PrintViewInfoPersembahan.php" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>

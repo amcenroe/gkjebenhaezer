@@ -1,0 +1,14 @@
+[25-Mar-2016 16:52:03 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 11
+[25-Mar-2016 16:52:22 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 11
+[25-Mar-2016 16:52:46 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 16:53:40 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 16:53:51 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 16:56:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 17:01:26 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 17:01:33 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 17:02:39 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 19
+[25-Mar-2016 17:03:12 UTC] PHP Notice:  Undefined variable: subject in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 67
+[25-Mar-2016 17:03:12 UTC] PHP Notice:  Undefined variable: location in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 68
+[25-Mar-2016 17:03:12 UTC] PHP Notice:  Undefined variable: description in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 74
+[25-Mar-2016 17:03:12 UTC] PHP Notice:  Undefined variable: messageIcal in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 78
+[25-Mar-2016 17:03:12 UTC] PHP Notice:  Undefined variable: cc in /home/gkjbekas/public_html/datawarga/library-email/example.php on line 90

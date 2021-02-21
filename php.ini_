@@ -1,0 +1,7 @@
+register_globals = off
+session.save_path = "/tmp"
+safe_mode = off
+output_buffer = Off
+output_buffering = Off
+date.timezone = "Asia/Jakarta"
+disable_functions=mail
