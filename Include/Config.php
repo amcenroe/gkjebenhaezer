@@ -21,8 +21,8 @@ date_default_timezone_set('Asia/Jakarta');
 // Another example, if you will be accessing from http://www.yourdomain.com
 // then you would enter '' ... an empty string for a top level installation.
 // This path SHOULD NOT end with slash.
-//$sRootPath='/churchinfo';
-$sRootPath='/gkjebenhaezer';
+$sRootPath='';
+//$sRootPath='/gkjebenhaezer';
 
 // If you are using a non-standard port number you may need to include the
 // port number in the URL.  Default value is fine for most installations.

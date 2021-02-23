@@ -37,7 +37,7 @@ global $sPageTitle, $sRootPath;
 	<meta http-equiv="Expires" content="-1" />
 
     <?php if (strlen($sMetaRefresh)) echo $sMetaRefresh; ?>
-	<title>GKJJakarta: <?php echo $sPageTitle; ?></title>
+	<title>GKJ Eben-Haezer: <?php echo $sPageTitle; ?></title>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo $sRootPath."/"; ?>Include/<?php echo $_SESSION['sStyle']; ?>">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo $sRootPath."/"; ?>Include/jscalendar/calendar-blue.css" title="cal-style">
