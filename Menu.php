@@ -66,6 +66,10 @@ if ($_SESSION['iLoginCount'] == 0) {
 
 				$sSQL = "SELECT count(MasaBaktiMajelisID) as JumlahData FROM `MasaBaktiMajelis` WHERE ( DATE(TglAkhir) > DATE(NOW()) ) AND ( YEAR(TglAkhir) = 2014 )";
 				$perintah = mysql_query($sSQL);
+				
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				if ($hasilGD[JumlahData]>0){ 
@@ -90,6 +94,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				AND YEAR(a.TAnggal) = YEAR(CURDATE()) AND WEEKOFYEAR(Tanggal) < WEEKOFYEAR(NOW())
 				ORDER BY Tanggal DESC ";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				if ($hasilGD[JumlahData]>0){ 
@@ -108,6 +115,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				( Tanggal >= DATE(NOW()) AND WEEKOFYEAR(Tanggal) >= WEEKOFYEAR(NOW()) )
 				ORDER BY Tanggal DESC ";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				if ($hasilGD[JumlahData]>0){ 
@@ -124,6 +134,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				WHERE (WEEKOFYEAR(TanggalPF)= WEEKOFYEAR(NOW())+2) AND 
 				( TanggalPF >= DATE(NOW()) AND WEEKOFYEAR(TanggalPF) >= WEEKOFYEAR(NOW()) ) ";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				//echo $hasilGD[JumlahData];
@@ -141,6 +154,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				WHERE (WEEKOFYEAR(TanggalPF)= WEEKOFYEAR(NOW())+1) AND 
 				( TanggalPF >= DATE(NOW()) AND WEEKOFYEAR(TanggalPF) >= WEEKOFYEAR(NOW()) ) ";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				//echo $hasilGD[JumlahData];
@@ -158,6 +174,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				FROM person_per
 				WHERE per_WorkPhone is null or per_workphone =' '";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				//echo $hasilGD[JumlahData];
@@ -174,6 +193,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				$sSQL = "SELECT count(per_ID) as JumlahData
 				 FROM `person_per`where ( per_cls_ID = 1 OR per_cls_ID = 2 ) AND (per_BirthDay = 00 or per_BirthMonth = 00 or per_BirthYear = 0000)";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				//echo $hasilGD[JumlahData];
@@ -189,6 +211,9 @@ if ($_SESSION['iLoginCount'] == 0) {
 				$sSQL = "select count(per_ID) as JumlahData
 				from person_per where per_fmr_id = 0 or per_fmr_id is NULL	";
 				$perintah = mysql_query($sSQL);
+				if($perintah==FALSE){
+					die(mysql_error());
+				}
 				while ($hasilGD=mysql_fetch_array($perintah)){
 				
 				//echo $hasilGD[JumlahData];
@@ -301,3 +326,4 @@ if ($_SESSION['iLoginCount'] == 0) {
 
 require 'Include/Footer.php';
 ?>
+
